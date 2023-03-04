@@ -23,11 +23,23 @@ h1, h2, h3, h4, h5, h6, p{
     border-radius: 50em;
     border: 4px solid transparent;
 }
-.images-section{
+/* .images-section{
     background-image: 
        url('../images/header/header-1.png'),
        url('../images/header/header-2.png'),
        url('../images/header/Shape-2.png');
    background-repeat: no-repeat, no-repeat, no-repeat;
+   height: 100%;
+   background-position: center;
+   background-origin: content-box;
+   background-attachment: fixed;
+  background-position: center;
+  background-position-x: center;
+  background-position-y: center;
+  background-repeat: repeat-y;
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-size: 300px 100px; */
    
-}
+/* } */
