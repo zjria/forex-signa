@@ -1,3 +1,11 @@
-.header-section ul li {
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.header-section ul li a {
+    color: #FFFFFF;
+}
+
+.header-section ul li a:hover {
     color: #FFFFFF;
 }
