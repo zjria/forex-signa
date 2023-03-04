@@ -6,6 +6,7 @@ body {
     color: #FFFFFF;
 }
 
-.header-section ul li a:hover {
-    color: #FFFFFF;
+
+.navbar-light .navbar-toggler {
+    background: white;
 }
