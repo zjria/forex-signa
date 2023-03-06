@@ -66,11 +66,24 @@ header hr {
 
 /* Card Style Section */
 .card-style {
-    /* order: 1px solid #F7C301; */
-    /* border: 5px solid; */
+    background: rgb(255, 217, 100, 0.1);
+    border: 2px solid transparent;
+    border-image: linear-gradient(90deg, rgba(255, 217, 100, 0.1) 0%, rgba(255, 153, 0, 0.6) 50.31%, rgba(255, 153, 0, 0.14) 100%) 1;
+}
+.card-body{
+    opacity: 1.7;
+}
+.card-img {
+    width: 50px;
+    height: 50px;
+}
 
-    /* border-image-source: linear-gradient(90deg, rgba(255, 217, 100, 0.1) 0%, rgba(255, 153, 0, 0.6) 50.31%, rgba(255, 153, 0, 0.14) 100%); */
-    border: linear-gradient(90deg, rgba(255, 217, 100, 0.1) 0%, rgba(255, 153, 0, 0.6) 50.31%, rgba(255, 153, 0, 0.14) 100%);;
-
-
+.card-style .card-img {
+    background-color: #F7C301;
+    padding: 8px;
+    border: 3px solid;
+    border-radius: 100%;
+    text-align: center;
+    margin: auto;
+    margin-top: -30px;
 }
