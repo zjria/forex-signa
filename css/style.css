@@ -97,3 +97,11 @@ header hr {
                                     rgba(12, 12, 12, 1));
 
 }
+
+/* .section-one-one{
+    background: linear-gradient(90deg, rgba(217, 217, 217, 0) 0%, rgba(91, 91, 91, 0.33) 50.31%, rgba(217, 217, 217, 0) 100%);
+} */
+.section-one{
+    background: linear-gradient(90deg, rgba(217, 217, 217, 0) 0%, rgba(91, 91, 91, 0.33) 50.31%, rgba(217, 217, 217, 0) 100%);
+    /* border: 5px solid; */
+}
