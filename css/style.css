@@ -70,6 +70,10 @@ header hr {
     border: 2px solid transparent;
     border-image: linear-gradient(90deg, rgba(255, 217, 100, 0.1) 0%, rgba(255, 153, 0, 0.6) 50.31%, rgba(255, 153, 0, 0.14) 100%) 1;
 }
+.card-border {
+    border: 2px solid transparent;
+    border-image: linear-gradient(90.12deg, rgba(255, 255, 255, 0.1) -23.55%, rgba(255, 255, 255, 0.055) 120.81%) 1;
+}
 
 .card-body {
     opacity: 1.7;
@@ -91,17 +95,21 @@ header hr {
 }
 
 .checkout-are {
-    background-image: linear-gradient(90deg, 
-                                    rgba(12, 12, 12, 1), 
-                                    rgba(96, 51, 5, 1),
-                                    rgba(12, 12, 12, 1));
+    background-image: linear-gradient(90deg,
+            rgba(12, 12, 12, 1),
+            rgba(96, 51, 5, 1),
+            rgba(12, 12, 12, 1));
 
 }
 
-/* .section-one-one{
+.section-one {
     background: linear-gradient(90deg, rgba(217, 217, 217, 0) 0%, rgba(91, 91, 91, 0.33) 50.31%, rgba(217, 217, 217, 0) 100%);
-} */
-.section-one{
-    background: linear-gradient(90deg, rgba(217, 217, 217, 0) 0%, rgba(91, 91, 91, 0.33) 50.31%, rgba(217, 217, 217, 0) 100%);
-    /* border: 5px solid; */
+}
+
+.border-bottom-style {
+    border-bottom: 1px solid transparent;
+    border-image: linear-gradient(90deg, rgba(255, 217, 100, 0.1) 0%, rgba(255, 153, 0, 0.6) 50.31%, rgba(255, 153, 0, 0.14) 100%) 1;
+}
+.hover-effect:hover{
+    background-color: #F47E37;
 }
