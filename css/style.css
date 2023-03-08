@@ -69,7 +69,9 @@ header hr {
     background: rgb(255, 217, 100, 0.1);
     border: 2px solid transparent;
     border-image: linear-gradient(90deg, rgba(255, 217, 100, 0.1) 0%, rgba(255, 153, 0, 0.6) 50.31%, rgba(255, 153, 0, 0.14) 100%) 1;
+    border-radius: 25.1034px;
 }
+
 .card-border {
     border: 2px solid transparent;
     border-image: linear-gradient(90.12deg, rgba(255, 255, 255, 0.1) -23.55%, rgba(255, 255, 255, 0.055) 120.81%) 1;
@@ -110,6 +112,46 @@ header hr {
     border-bottom: 1px solid transparent;
     border-image: linear-gradient(90deg, rgba(255, 217, 100, 0.1) 0%, rgba(255, 153, 0, 0.6) 50.31%, rgba(255, 153, 0, 0.14) 100%) 1;
 }
-.hover-effect:hover{
+
+.hover-effect:hover {
     background-color: #F47E37;
+}
+
+.pricing-section h5 {
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 51px;
+    text-align: center;
+    background: linear-gradient(95.39deg, rgba(255, 255, 255, 0) -6.03%, #FFFFFF 129.31%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.pricing-section h3 {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 72px;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.pricing-section img {
+    background: #000000; 
+}
+.pricing-section ul li {
+    font-size: 18px;
+    opacity: 0.7;
+    list-style: none;
+    padding: 8px 0;
+}
+.card-style .header-img {
+    width: 40%;
+}
+.card-style{
+    background: #000000;
+}
+.card-style:hover .top-bar{
+    background-color: #F47E37;
+    border-radius: 10px;
 }
