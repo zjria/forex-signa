@@ -203,3 +203,7 @@ header hr {
     border-radius: 21px;
     border: 1px solid transparent;
 }
+
+.owl-carousel .item-field{
+    background-color: #000000;
+}
