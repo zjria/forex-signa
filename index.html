@@ -11,6 +11,14 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap"
     rel="stylesheet">
+  <!-- Owlcaroses css link -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+    integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+    integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
   <!-- Bootstrap CSS Link -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
@@ -400,62 +408,238 @@
           </div>
           <!-- Card Style -->
           <div class="card-group text-center align-items-center m-auto justify-content-center">
-            <div class="card card-style">
+            <div class="card pricing-card">
               <div class="top-bar"></div>
               <img src="/images/main/group-1.png" class="card-img-top img-fluid m-auto pt-5 header-img" alt="...">
               <div class="card-body">
                 <h5 class="card-title">Silver</h5>
                 <h3 class="card-title">$78 <span style="font-size: x-large;">/Mo</span></h3>
                 <p class="card-text">
-                  <ul class="text-start">
-                    <li><img class="pe-2 py-2" src="/images/main/coolicon.png" alt="" srcset=""> Dashboard Signal - YES</li>
-                    <li><img class="pe-2 py-2" src="/images/main/coolicon.png" alt="" srcset=""> Whatsapp Alert - YES</li>
-                    <li><img class="pe-2 py-2" src="/images/main/coolicon.png" alt="" srcset=""> Telegram Alert - YES</li>
-                    <li><img class="pe-2 py-2" src="/images/main/coolicon.png" alt="" srcset=""> Email Alert - YES</li>
-                    <li><img class="pe-2 py-2" src="/images/main/coolicon.png" alt="" srcset=""> SMS Alert - YES</li>
-                    <li><img class="pe-2 py-2" src="/images/main/coolicon.png" alt="" srcset=""> All Major Currency Pairs</li>
-                    <li><img class="pe-2 py-2" src="/images/main/coolicon.png" alt="" srcset=""> Instant Notification Alerts</li>
-                    <li><img class="pe-2 py-2" src="/images/main/coolicon.png" alt="" srcset=""> 500+ Profit Pips</li>
-                    <li><img class="pe-2 py-2" src="/images/main/coolicon.png" alt="" srcset=""> High Success Rate</li>
-                    <li><img class="pe-2 py-2" src="/images/main/coolicon.png" alt="" srcset=""> 2-3 Premium Signals Per Day</li>
-                    <li><img class="pe-2 py-2" src="/images/main/coolicon.png" alt="" srcset=""> 30-Day Moneyback Guarantee</li>
-                    <li><img class="pe-2 py-2" src="/images/main/coolicon.png" alt="" srcset=""> 500+ Profit Pips</li>
-                    <li><img class="pe-2 py-2" src="/images/main/coolicon.png" alt="" srcset=""> Support - 24X7</li>
-                  </ul>
+                <ul class="text-start">
+                  <li><img class="pe-2 py-2" src="/images/main/coolicon.png" alt="" srcset=""> Dashboard Signal - YES
+                  </li>
+                  <li><img class="pe-2 py-2" src="/images/main/coolicon.png" alt="" srcset=""> Whatsapp Alert - YES</li>
+                  <li><img class="pe-2 py-2" src="/images/main/coolicon.png" alt="" srcset=""> Telegram Alert - YES</li>
+                  <li><img class="pe-2 py-2" src="/images/main/coolicon.png" alt="" srcset=""> Email Alert - YES</li>
+                  <li><img class="pe-2 py-2" src="/images/main/coolicon.png" alt="" srcset=""> SMS Alert - YES</li>
+                  <li><img class="pe-2 py-2" src="/images/main/coolicon.png" alt="" srcset=""> All Major Currency Pairs
+                  </li>
+                  <li><img class="pe-2 py-2" src="/images/main/coolicon.png" alt="" srcset=""> Instant Notification
+                    Alerts</li>
+                  <li><img class="pe-2 py-2" src="/images/main/coolicon.png" alt="" srcset=""> 500+ Profit Pips</li>
+                  <li><img class="pe-2 py-2" src="/images/main/coolicon.png" alt="" srcset=""> High Success Rate</li>
+                  <li><img class="pe-2 py-2" src="/images/main/coolicon.png" alt="" srcset=""> 2-3 Premium Signals Per
+                    Day</li>
+                  <li><img class="pe-2 py-2" src="/images/main/coolicon.png" alt="" srcset=""> 30-Day Moneyback
+                    Guarantee</li>
+                  <li><img class="pe-2 py-2" src="/images/main/coolicon.png" alt="" srcset=""> 500+ Profit Pips</li>
+                  <li><img class="pe-2 py-2" src="/images/main/coolicon.png" alt="" srcset=""> Support - 24X7</li>
+                </ul>
                 </p>
               </div>
               <div class="card-footer" style="margin-bottom: -30px;">
                 <div class="button-section">
                   <div class="parent">
-                    <button class="btn-gradient-2">Button Two</button>
+                    <!-- <button class="btn-gradient-2">Button Two</button> -->
+                    <button class="pricing-button py-3 px-4 rounded-pill">Register Now</button>
                   </div>
                 </div>
               </div>
             </div>
-
-
-            <div class="card">
-              <img src="..." class="card-img-top" alt="...">
+            <div class="card pricing-card">
+              <div class="top-bar"></div>
+              <img src="/images/main/group-2.png" class="card-img-top img-fluid m-auto pt-5 header-img" alt="...">
               <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                <h5 class="card-title">Silver</h5>
+                <h3 class="card-title">$78 <span style="font-size: x-large;">/Mo</span></h3>
+                <p class="card-text">
+                <ul class="text-start">
+                  <li><img class="pe-2 py-2" src="/images/main/coolicon.png" alt="" srcset=""> Dashboard Signal - YES
+                  </li>
+                  <li><img class="pe-2 py-2" src="/images/main/coolicon.png" alt="" srcset=""> Whatsapp Alert - YES</li>
+                  <li><img class="pe-2 py-2" src="/images/main/coolicon.png" alt="" srcset=""> Telegram Alert - YES</li>
+                  <li><img class="pe-2 py-2" src="/images/main/coolicon.png" alt="" srcset=""> Email Alert - YES</li>
+                  <li><img class="pe-2 py-2" src="/images/main/coolicon.png" alt="" srcset=""> SMS Alert - YES</li>
+                  <li><img class="pe-2 py-2" src="/images/main/coolicon.png" alt="" srcset=""> All Major Currency Pairs
+                  </li>
+                  <li><img class="pe-2 py-2" src="/images/main/coolicon.png" alt="" srcset=""> Instant Notification
+                    Alerts</li>
+                  <li><img class="pe-2 py-2" src="/images/main/coolicon.png" alt="" srcset=""> 500+ Profit Pips</li>
+                  <li><img class="pe-2 py-2" src="/images/main/coolicon.png" alt="" srcset=""> High Success Rate</li>
+                  <li><img class="pe-2 py-2" src="/images/main/coolicon.png" alt="" srcset=""> 2-3 Premium Signals Per
+                    Day</li>
+                  <li><img class="pe-2 py-2" src="/images/main/coolicon.png" alt="" srcset=""> 30-Day Moneyback
+                    Guarantee</li>
+                  <li><img class="pe-2 py-2" src="/images/main/coolicon.png" alt="" srcset=""> 500+ Profit Pips</li>
+                  <li><img class="pe-2 py-2" src="/images/main/coolicon.png" alt="" srcset=""> Support - 24X7</li>
+                </ul>
+                </p>
               </div>
-              <div class="card-footer">
-                <small class="text-muted">Last updated 3 mins ago</small>
+              <div class="card-footer" style="margin-bottom: -30px;">
+                <div class="button-section">
+                  <div class="parent">
+                    <!-- <button class="btn-gradient-2">Button Two</button> -->
+                    <button class="pricing-button py-3 px-4 rounded-pill">Register Now</button>
+                  </div>
+                </div>
               </div>
             </div>
-            <div class="card">
-              <img src="..." class="card-img-top" alt="...">
+            <div class="card pricing-card">
+              <div class="top-bar"></div>
+              <img src="/images/main/group-3.png" class="card-img-top img-fluid m-auto pt-5 header-img" alt="...">
               <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                <h5 class="card-title">Silver</h5>
+                <h3 class="card-title">$78 <span style="font-size: x-large;">/Mo</span></h3>
+                <p class="card-text">
+                <ul class="text-start">
+                  <li><img class="pe-2 py-2" src="/images/main/coolicon.png" alt="" srcset=""> Dashboard Signal - YES
+                  </li>
+                  <li><img class="pe-2 py-2" src="/images/main/coolicon.png" alt="" srcset=""> Whatsapp Alert - YES</li>
+                  <li><img class="pe-2 py-2" src="/images/main/coolicon.png" alt="" srcset=""> Telegram Alert - YES</li>
+                  <li><img class="pe-2 py-2" src="/images/main/coolicon.png" alt="" srcset=""> Email Alert - YES</li>
+                  <li><img class="pe-2 py-2" src="/images/main/coolicon.png" alt="" srcset=""> SMS Alert - YES</li>
+                  <li><img class="pe-2 py-2" src="/images/main/coolicon.png" alt="" srcset=""> All Major Currency Pairs
+                  </li>
+                  <li><img class="pe-2 py-2" src="/images/main/coolicon.png" alt="" srcset=""> Instant Notification
+                    Alerts</li>
+                  <li><img class="pe-2 py-2" src="/images/main/coolicon.png" alt="" srcset=""> 500+ Profit Pips</li>
+                  <li><img class="pe-2 py-2" src="/images/main/coolicon.png" alt="" srcset=""> High Success Rate</li>
+                  <li><img class="pe-2 py-2" src="/images/main/coolicon.png" alt="" srcset=""> 2-3 Premium Signals Per
+                    Day</li>
+                  <li><img class="pe-2 py-2" src="/images/main/coolicon.png" alt="" srcset=""> 30-Day Moneyback
+                    Guarantee</li>
+                  <li><img class="pe-2 py-2" src="/images/main/coolicon.png" alt="" srcset=""> 500+ Profit Pips</li>
+                  <li><img class="pe-2 py-2" src="/images/main/coolicon.png" alt="" srcset=""> Support - 24X7</li>
+                </ul>
+                </p>
               </div>
-              <div class="card-footer">
-                <small class="text-muted">Last updated 3 mins ago</small>
+              <div class="card-footer" style="margin-bottom: -30px;">
+                <div class="button-section">
+                  <div class="parent">
+                    <!-- <button class="btn-gradient-2">Button Two</button> -->
+                    <button class="pricing-button py-3 px-4 rounded-pill">Register Now</button>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
         </div>
+      </section>
+    </div>
+    <!-- Total Section -->
+    <div class="total-section py-5 my-5">
+      <div class="container">
+        <div class="total-border p-5">
+          <div class="row">
+            <div class="col-md-3 d-flex justify-content-center">
+              <div class="text-field text-center align-items-center">
+                <h3>25</h3>
+                <p>Total Signal</p>
+              </div>
+              <img class="ps-5 ms-5" src="./images/main/line-4.png" alt="" srcset="">
+            </div>
+            <div class="col-md-3 d-flex justify-content-center">
+              <div class="text-field text-center align-items-center">
+                <h3>695</h3>
+                <p>Total tips</p>
+              </div>
+              <img class="ps-5 ms-5" src="./images/main/line-4.png" alt="" srcset="">
+            </div>
+            <div class="col-md-3 d-flex justify-content-center">
+              <div class="text-field text-center align-items-center">
+                <h3>14</h3>
+                <p>Total blog</p>
+              </div>
+              <img class="ps-5 ms-5" src="./images/main/line-4.png" alt="" srcset="">
+            </div>
+            <div class="col-md-3 d-flex justify-content-center">
+              <div class="text-field text-center align-items-center">
+                <h3>4.78k</h3>
+                <p>Happy Users</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--Grow With Us  -->
+    <div class="grow-are">
+      <section class="container">
+        <div class="grow-section py-5 my-5">
+          <div class="main-header-text justify-content-center text-center">
+            <div class="primary-line">
+              <h6 class="fw-bold py-2 d-flex align-items-center text-uppercase text-center justify-content-center"><span
+                  class="pe-3">Profit</span> <span>
+                  <hr>
+                </span> </h6>
+            </div>
+            <h1>Grow With Us</h1>
+            <p class="pb-5">
+              Follow our trading signals and be a winner of Forex trading. its a perfect option for <br> those who wants
+              to earn massive income with monthly of 10%-20% profit from your <br> trading account with very low risk.
+            </p>
+          </div>
+          <img class="img-fluid w-100" src="./images/main/grow.png" alt="">
+        </div>
+      </section>
+    </div>
+
+
+    <!-- Our user Say  -->
+    <div class="grow-are">
+      <section class="container">
+        <div class="grow-section py-5 my-5">
+          <div class="main-header-text justify-content-center text-center">
+            <div class="primary-line">
+              <h6 class="fw-bold py-2 d-flex align-items-center text-uppercase text-center justify-content-center"><span
+                  class="pe-3">Testimonial</span> <span>
+                  <hr>
+                </span> </h6>
+            </div>
+            <h1>Our user Say</h1>
+          </div>
+           <!-- Carousel -->
+        <div class="owl-carousel owl-theme py-5">
+          <div class="item">
+            <div class="card" style="width: 18rem;">
+              <img src="./images/main/carusol/carusol-1 (1).png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              </div>
+            </div>
+            <h4>1</h4>
+          </div>
+          
+          <div class="item">
+            <div class="card" style="width: 18rem;">
+              <img src="./images/main/carusol/carusol-1 (1).png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              </div>
+            </div>
+            <h4>2</h4></div>
+          <div class="item">
+            <div class="card" style="width: 18rem;">
+              <img src="./images/main/carusol/carusol-1 (1).png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              </div>
+            </div><h4>3</h4></div>
+          <div class="item"><h4>4</h4></div>
+          <div class="item"><h4>5</h4></div>
+          <div class="item"><h4>6</h4></div>
+          <div class="item"><h4>7</h4></div>
+          <div class="item"><h4>8</h4></div>
+          <div class="item"><h4>9</h4></div>
+          <div class="item"><h4>10</h4></div>
+          <div class="item"><h4>11</h4></div>
+          <div class="item"><h4>12</h4></div>
+        </div>
+        </div>
+      
+        
+     
       </section>
     </div>
   </main>
@@ -463,11 +647,39 @@
 
 
 
+  <!-- Jquery js link -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js"
+    integrity="sha512-pumBsjNRGGqkPzKHndZMaAG+bir374sORyzM3uulLV14lN5LyykqNk8eEeUlUkB3U0M4FApyaHraT65ihJhDpQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <!-- Owl Carousel cdn link -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+    integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
   <!-- Bootstrap JS Link -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
     crossorigin="anonymous"></script>
+
+  
+    <script>
+      $('.owl-carousel').owlCarousel({
+    loop:true,
+    margin:10,
+    nav:true,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:3
+        },
+        1000:{
+            items:5
+        }
+    }
+})
+    </script>
 </body>
 
 </html>

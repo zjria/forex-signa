@@ -67,9 +67,8 @@ header hr {
 /* Card Style Section */
 .card-style {
     background: rgb(255, 217, 100, 0.1);
-    border: 2px solid transparent;
+    border: 1px solid transparent;
     border-image: linear-gradient(90deg, rgba(255, 217, 100, 0.1) 0%, rgba(255, 153, 0, 0.6) 50.31%, rgba(255, 153, 0, 0.14) 100%) 1;
-    border-radius: 25.1034px;
 }
 
 .card-border {
@@ -136,22 +135,71 @@ header hr {
     text-transform: uppercase;
     color: #FFFFFF;
 }
-.pricing-section img {
-    background: #000000; 
+
+.pricing-section ul li img {
+    background: #000000;
 }
+
 .pricing-section ul li {
     font-size: 18px;
     opacity: 0.7;
     list-style: none;
     padding: 8px 0;
 }
-.card-style .header-img {
-    width: 40%;
-}
-.card-style{
+
+.pricing-card {
     background: #000000;
+    border: 1px solid transparent;
+    border-image: linear-gradient(90deg, rgba(255, 217, 100, 0.1) 0%, rgba(255, 153, 0, 0.6) 50.31%, rgba(255, 153, 0, 0.14) 100%) 1;
 }
-.card-style:hover .top-bar{
-    background-color: #F47E37;
-    border-radius: 10px;
+
+.pricing-card .header-img {
+    width: 80px;
+    height: 190px;
+}
+
+.pricing-card:hover .top-bar {}
+
+.top-bar {
+    background: linear-gradient(90deg, #F7C301 0%, #F47E37 100%);
+    box-shadow: 0px 10px 160px -2px rgba(0, 0, 0, 0.16);
+    border-radius: 21px 21px 0px 0px;
+    height: 20px;
+}
+
+.button-primary {
+    /* background: linear-gradient(90deg, #F7C301 0%, #F47E37 100%); */
+    border: 1px solid transparent;
+    border-image: linear-gradient(90deg, rgba(255, 217, 100, 0.1) 0%, rgba(255, 153, 0, 0.6) 50.31%, rgba(255, 153, 0, 0.14) 100%) 1;
+}
+
+.pricing-button {
+    font-size: 1em;
+    color: white;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+}
+
+.pricing-button {
+    background: linear-gradient(rgb(20, 19, 19), rgb(13, 12, 12)) padding-box,
+        linear-gradient(to right, rgb(227, 49, 85), darkorchid) border-box;
+    border-radius: 50em;
+    border: 4px solid transparent;
+}
+
+.total-section h3 {
+    font-weight: 600;
+    font-size: 50px;
+}
+
+.total-section p {
+    font-size: 20px;
+    color: #717282;
+}
+
+.total-border {
+    background: linear-gradient(#080600, #080600) padding-box,
+        linear-gradient(to right, #F7C301 0%, #F47E37 100%) border-box;
+    border-radius: 21px;
+    border: 1px solid transparent;
 }
