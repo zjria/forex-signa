@@ -223,3 +223,20 @@ header hr {
     border-bottom: 1px solid transparent;
     border-image: linear-gradient(90deg, rgba(255, 217, 100, 0.1) 0%, rgba(255, 153, 0, 0.6) 50.31%, rgba(255, 153, 0, 0.14) 100%) 1;
 }
+
+/* Email Field */
+.email-field {
+    width: 594px;
+    height: 74px;
+    background: #E5E5E5;
+    border-radius: 1000px;
+}
+
+input.form-control {
+    border-radius: 200px;
+}
+
+.subscript-button {
+    background: linear-gradient(90deg, #F7C301 0%, #F47E37 100%);
+    border-radius: 0px 200px 200px 0px;
+}
