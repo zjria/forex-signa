@@ -269,3 +269,7 @@ input.form-control {
     min-height: 100vh;
     align-items: center;
 }
+.lear-bg{
+    background: url(../images/main/footer/lair-bg.png);
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.93) 17.46%, rgba(12, 12, 12, 0.54) 100%);
+}
