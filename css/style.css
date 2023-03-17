@@ -314,4 +314,6 @@ span.swiper-pagination-bullet.swiper-pagination-bullet {
     padding: 10px 12.5px;
     color: white;
     font-weight: 700;
+    border: 1px solid #FFFFFF;
+    border-radius: 19.5px;
 }
