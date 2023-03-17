@@ -309,3 +309,9 @@ span.swiper-pagination-bullet.swiper-pagination-bullet {
     color: #FFFFFF;
     opacity: 0.8;
 }
+
+.icons ul li a {
+    padding: 10px 12.5px;
+    color: white;
+    font-weight: 700;
+}
