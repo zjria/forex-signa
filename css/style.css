@@ -242,7 +242,6 @@ input.form-control {
 }
 
 /* Curosol */
-
 .border-line {
     border-bottom: 1px solid transparent;
     border-image: linear-gradient(90deg, rgba(255, 217, 100, 0.1) 0%, rgba(255, 153, 0, 0.6) 50.31%,
@@ -253,7 +252,6 @@ input.form-control {
     background: rgb(255, 217, 100, 0.1);
     border: 1px solid transparent;
     border-image: linear-gradient(90deg, rgba(255, 217, 100, 0.1) 0%, rgba(255, 153, 0, 0.6) 50.31%, rgba(255, 153, 0, 0.14) 100%) 1;
-    width: 300px;
 }
 
 .swiper-slide .card p {
@@ -270,11 +268,20 @@ input.form-control {
 
 .mySwiper {
     display: flex;
-    min-height: 100vh;
     align-items: center;
 }
 
 .lear-bg {
     background: url(../images/main/footer/lair-bg.png);
     background: linear-gradient(180deg, rgba(0, 0, 0, 0.93) 17.46%, rgba(12, 12, 12, 0.54) 100%);
+}
+
+span.swiper-pagination-bullet.swiper-pagination-bullet {
+    background: linear-gradient(90deg, #F7C301 0%, #F47E37 100%);
+    width: 18px;
+    height: 18px;
+}
+
+.swiper-section {
+    margin-bottom: 60px;
 }
