@@ -285,3 +285,27 @@ span.swiper-pagination-bullet.swiper-pagination-bullet {
 .swiper-section {
     margin-bottom: 60px;
 }
+
+/* Footer Section start */
+.footer-logo-text h1 {
+    font-size: 22px;
+    line-height: 33px;
+}
+
+.footer-logo-text ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-logo-text ul li {
+    font-size: 18px;
+    line-height: 32px;
+    color: #FFFFFF;
+    opacity: 0.8;
+}
+
+.footer-logo-text ul li a {
+    text-decoration: none;
+    color: #FFFFFF;
+    opacity: 0.8;
+}
