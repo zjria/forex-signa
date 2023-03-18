@@ -29,6 +29,8 @@ p {
     color: #F5FFCC;
 }
 
+
+
 /* Primary and secondary Button Style */
 
 .btn-gradient-2 {
@@ -40,10 +42,16 @@ p {
 
 .btn-gradient-2 {
     background: linear-gradient(rgb(20, 19, 19), rgb(13, 12, 12)) padding-box,
-        linear-gradient(to right, darkblue, darkorchid) border-box;
+        linear-gradient(to right, #eba946, hsl(29, 100%, 48%)) border-box;
     border-radius: 50em;
-    border: 4px solid transparent;
+    border: 2px solid transparent;
 }
+
+/* .card-style {
+    background: rgb(255, 217, 100, 0.1);
+    border: 1px solid transparent;
+    border-image: linear-gradient(90deg, rgba(255, 217, 100, 0.1) 0%, rgba(255, 153, 0, 0.6) 50.31%, rgba(255, 153, 0, 0.14) 100%) 1;
+} */
 
 .button-primary {
     background: linear-gradient(90deg, #F7C301 0%, #F47E37 100%);
