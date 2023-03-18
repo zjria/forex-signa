@@ -317,3 +317,20 @@ span.swiper-pagination-bullet.swiper-pagination-bullet {
     border: 1px solid #FFFFFF;
     border-radius: 19.5px;
 }
+
+.logo ul {
+    display: flex;
+}
+
+.logo ul li {
+    margin: 0 10px;
+    background: red;
+    border-radius: 100%;
+    padding: 5px 8px;
+}
+
+.logo ul {}
+
+.logo ul li {}
+
+.logo ul li img {}
