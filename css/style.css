@@ -119,7 +119,7 @@ header hr {
 }
 
 .hover-effect:hover {
-    background-color: #F47E37;
+    background: rgba(255, 153, 0, 0.6);
 }
 
 .pricing-section h5 {
@@ -157,26 +157,25 @@ header hr {
     background: #000000;
     border: 1px solid transparent;
     border-image: linear-gradient(90deg, rgba(255, 217, 100, 0.1) 0%, rgba(255, 153, 0, 0.6) 50.31%, rgba(255, 153, 0, 0.14) 100%) 1;
+    border-radius: 10px;      
 }
 
 .pricing-card .header-img {
     width: 80px;
     height: 190px;
 }
-
-.pricing-card:hover .top-bar {}
-
-.top-bar {
+.pricing-card:hover .top-bar {
     background: linear-gradient(90deg, #F7C301 0%, #F47E37 100%);
     box-shadow: 0px 10px 160px -2px rgba(0, 0, 0, 0.16);
     border-radius: 21px 21px 0px 0px;
     height: 20px;
+    border: 3px solid transparent;
 }
 
 .button-primary {
     background: linear-gradient(90deg, #F7C301 0%, #F47E37 100%);
     border: 1px solid transparent;
-    /* border-image: linear-gradient(90deg, rgba(255, 217, 100, 0.1) 0%, rgba(255, 153, 0, 0.6) 50.31%, rgba(255, 153, 0, 0.14) 100%) 1; */
+   
 }
 
 .pricing-button {
@@ -278,11 +277,6 @@ input.form-control {
     align-items: center;
 }
 
-.lear-bg {
-    background: url(../images/main/footer/lair-bg.png);
-    background: linear-gradient(180deg, rgba(0, 0, 0, 0.93) 17.46%, rgba(12, 12, 12, 0.54) 100%);
-}
-
 span.swiper-pagination-bullet.swiper-pagination-bullet {
     background: linear-gradient(90deg, #F7C301 0%, #F47E37 100%);
     width: 18px;
@@ -318,11 +312,9 @@ span.swiper-pagination-bullet.swiper-pagination-bullet {
 }
 
 .icons ul li a {
-    padding: 10px 12.5px;
+    padding: 8px 14px;
     color: white;
     font-weight: 700;
-    border: 1px solid #FFFFFF;
-    border-radius: 19.5px;
 }
 
 .logo ul {
@@ -331,26 +323,16 @@ span.swiper-pagination-bullet.swiper-pagination-bullet {
 
 .logo ul li {
     margin: 0 10px;
-    background: red;
+    background: #1F1F1F;
     border-radius: 100%;
-    padding: 5px 8px;
+    padding: 6px 12px;
 }
-
-.logo ul {}
-
-.logo ul li {}
-
-.logo ul li img {}
 
 /* Drop down menu */
 
 .country-drop-down-menu .drop-down {
     position: relative;
-    /* display: flex; */
-    /* align-items: center; */
-    /* justify-content: space-between; */
     width: 200px;
-    /* padding: 0.5rem 1rem; */
     cursor: pointer;
 }
 
@@ -399,13 +381,19 @@ span.swiper-pagination-bullet.swiper-pagination-bullet {
 .item:hover {
     background-color: rgb(211, 211, 211);
 }
+.footer-logo-text.d-flex.align-items-center {
+    justify-content: end;
+}
+.lear-bg{
+    background-image: url(../images/main/footer/lair-bg.png), 
+        linear-gradient(180deg, rgba(0, 0, 0, 0.0) 17.46%, rgba(12, 12, 12, 0.54) 100%);
+    background-repeat: no-repeat;
+    
 
-
-
-
-
-
-
+}
+.subscribe-are {
+    background: rgba(12, 12, 12, 0.54);
+}
 
 
 /* Responsive Style */
@@ -447,7 +435,6 @@ span.swiper-pagination-bullet.swiper-pagination-bullet {
         display: flex;
         flex-direction: column;
         justify-content: center;
-        /* padding: 35px 0px; */
         text-align: center;
     }
 
@@ -504,6 +491,63 @@ span.swiper-pagination-bullet.swiper-pagination-bullet {
 
     .card.pricing-card {
         margin-top: 54px;
+    }
+    .input-group.email-field {
+        width: 540px;
+        margin: auto;
+    }
+    .footer-logo-text.mt-5.d-flex.justify-content-between {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .footer-logo-text.mt-5.d-flex.justify-content-between div {
+        margin-top: 25px;
+    }
+    .connected-text.d-flex.align-items-center {
+        text-align: center;
+        justify-content: center;
+        margin: auto;
+        display: flex;
+        align-items: center;
+    }
+    .country-drop-down-menu {
+        margin: auto;
+        padding: 30px 0px;
+    }
+    .copy-field {
+        margin: auto;
+        display: flex;
+        justify-content: center;
+    }
+    .footer-logo-text.d-flex.align-items-center {
+        justify-content: center;
+    }
+    .card-group.text-center.align-items-center.justify-content-center {
+        display: flex;
+        flex-direction: column;
+    }
+
+}
+
+@media screen and (min-width: 769px) and (max-width: 992px) {
+    .navbar-light .navbar-toggler {
+        border-color: white;
+    }
+
+    .navbar-toggler-icon {
+        color: white;
+        background: white;
+    }
+
+    .navbar-light .navbar-toggler {
+        background: white;
+    }
+    .banner-text h1 {
+        font-size: 40px;
+    }
+    .main-text h2 {
+        font-size: 30px;
     }
 
 }
