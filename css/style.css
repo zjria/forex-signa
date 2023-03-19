@@ -55,6 +55,7 @@ p {
 .banner-text h6 {
     color: #F5FFCC;
 }
+
 .banner-text h1 {
     font-size: 64px;
 }
@@ -173,9 +174,9 @@ header hr {
 }
 
 .button-primary {
-    /* background: linear-gradient(90deg, #F7C301 0%, #F47E37 100%); */
+    background: linear-gradient(90deg, #F7C301 0%, #F47E37 100%);
     border: 1px solid transparent;
-    border-image: linear-gradient(90deg, rgba(255, 217, 100, 0.1) 0%, rgba(255, 153, 0, 0.6) 50.31%, rgba(255, 153, 0, 0.14) 100%) 1;
+    /* border-image: linear-gradient(90deg, rgba(255, 217, 100, 0.1) 0%, rgba(255, 153, 0, 0.6) 50.31%, rgba(255, 153, 0, 0.14) 100%) 1; */
 }
 
 .pricing-button {
@@ -209,7 +210,8 @@ header hr {
     border: 1px solid transparent;
 }
 
-.owl-carousel .item-field, .latest-card .card {
+.owl-carousel .item-field,
+.latest-card .card {
     background-color: #000000;
 }
 
@@ -230,20 +232,20 @@ header hr {
 }
 
 /* Email Field */
-.email-field {
-    width: 594px;
-    height: 74px;
-    background: #E5E5E5;
-    border-radius: 1000px;
-}
-
-input.form-control {
-    border-radius: 200px;
-}
-
-.subscript-button {
+.email-field button {
     background: linear-gradient(90deg, #F7C301 0%, #F47E37 100%);
     border-radius: 0px 200px 200px 0px;
+    padding: 20px;
+    color: white;
+    font-weight: 700;
+}
+.input-group.email-field {
+    width: 600px;
+    margin: auto;    
+}
+input.form-control {
+    border-radius: 200px 0px 0px 200px;
+    padding: 20px;
 }
 
 /* Curosol */
@@ -342,7 +344,7 @@ span.swiper-pagination-bullet.swiper-pagination-bullet {
 
 /* Drop down menu */
 
-.drop-down {
+.country-drop-down-menu .drop-down {
     position: relative;
     /* display: flex; */
     /* align-items: center; */
@@ -352,17 +354,17 @@ span.swiper-pagination-bullet.swiper-pagination-bullet {
     cursor: pointer;
 }
 
-.arrow {
+.drop-down .arrow {
     font-size: 30px;
 }
 
-.wrapper {
+.drop-down .wrapper {
     display: flex;
     gap: 0.5rem;
     align-items: center;
 }
 
-img {
+.drop-down img {
     width: 50px;
     height: 30px;
 }
@@ -396,4 +398,112 @@ img {
 
 .item:hover {
     background-color: rgb(211, 211, 211);
+}
+
+
+
+
+
+
+
+
+
+/* Responsive Style */
+@media screen and (max-width: 576px) {
+    .navbar-light .navbar-toggler {
+        border-color: white;
+    }
+
+    .navbar-toggler-icon {
+        color: white;
+        background: white;
+    }
+
+    .navbar-light .navbar-toggler {
+        background: white;
+    }
+
+    .banner-text h1 {
+        font-size: 35px;
+    }
+
+    .images-section.d-flex {
+        margin-top: 30px;
+    }
+
+    .main-text h2 {
+        font-size: 25px;
+    }
+
+    .card.pricing-card {
+        margin-top: 40px;
+    }
+
+    span#basic-addon2 {
+        padding: 10px;
+    }
+
+    .footer-logo-text.mt-5.d-flex.justify-content-between {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        /* padding: 35px 0px; */
+        text-align: center;
+    }
+
+    .footer-logo-text.mt-5.d-flex.justify-content-between div {
+        margin: 10px 0px;
+    }
+
+    .connected-text.d-flex.align-items-center {
+        display: flex;
+        flex-direction: column;
+        gap: 20px 0px;
+    }
+
+    .country-drop-down-menu {
+        margin: auto;
+        padding-top: 25px;
+    }
+
+    .footer-last-section {
+        text-align: center;
+    }
+    .input-group.email-field {
+        width: 330px;
+        margin: auto;
+    }
+}
+
+@media screen and (min-width: 577px) and (max-width: 768px) {
+    .navbar-light .navbar-toggler {
+        border-color: white;
+    }
+
+    .navbar-toggler-icon {
+        color: white;
+        background: white;
+    }
+
+    .navbar-light .navbar-toggler {
+        background: white;
+    }
+
+    .banner-text h1 {
+        font-size: 35px;
+    }
+
+    .images-section.d-flex {
+        margin-top: 40px;
+    }
+
+    .card-group.text-center.align-items-center.m-auto.justify-content-center {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .card.pricing-card {
+        margin-top: 54px;
+    }
+
 }
