@@ -344,11 +344,11 @@ span.swiper-pagination-bullet.swiper-pagination-bullet {
 
 .drop-down {
     position: relative;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+    /* display: flex; */
+    /* align-items: center; */
+    /* justify-content: space-between; */
     width: 200px;
-    padding: 0.5rem 1rem;
+    /* padding: 0.5rem 1rem; */
     cursor: pointer;
 }
 
