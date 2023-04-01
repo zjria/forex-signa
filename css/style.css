@@ -122,6 +122,29 @@ header hr {
     background: rgba(255, 153, 0, 0.6);
 }
 
+/* Pricing Section start */
+
+.pricing-card {
+    border: 3px solid #0000;
+    border-radius: 25px;
+    background: linear-gradient(rgb(8, 8, 8), rgb(5, 5, 5)) padding-box,
+        linear-gradient(90deg, rgba(247, 195, 1, 0.8) 0%, rgba(244, 126, 55, 0.5) 100%) border-box;
+}
+.pricing-card:hover .top-bar{
+    height: 28px;
+    background: linear-gradient(90deg, #F7C301 0%, #F47E37 100%);
+    box-shadow: 0px 10px 160px -2px rgba(0, 0, 0, 0.16);
+    border-radius: 21px 21px 0px 0px;
+}
+
+.top-bar {
+    height: 28px;
+    background: linear-gradient(90deg, #000000 0%, #000000 100%);
+    box-shadow: 0px 10px 160px -2px rgba(0, 0, 0, 0.16);
+    border-radius: 21px 21px 0px 0px;
+}
+
+
 .pricing-section h5 {
     font-weight: 700;
     font-size: 34px;
@@ -153,45 +176,24 @@ header hr {
     padding: 8px 0;
 }
 
-.pricing-card {
-    background: #000000;
-    border: 1px solid transparent;
-    border-image: linear-gradient(90deg, rgba(255, 217, 100, 0.1) 0%, rgba(255, 153, 0, 0.6) 50.31%, rgba(255, 153, 0, 0.14) 100%) 1;
-    border-radius: 10px;      
-}
 
 .pricing-card .header-img {
     width: 80px;
     height: 190px;
 }
-.pricing-card:hover .top-bar {
-    background: linear-gradient(90deg, #F7C301 0%, #F47E37 100%);
-    box-shadow: 0px 10px 160px -2px rgba(0, 0, 0, 0.16);
-    border-radius: 21px 21px 0px 0px;
-    height: 20px;
-    border: 3px solid transparent;
-}
 
 .button-primary {
     background: linear-gradient(90deg, #F7C301 0%, #F47E37 100%);
     border: 1px solid transparent;
-   
+
 }
 
 .pricing-button {
-    font-size: 1em;
-    color: white;
-    padding: 0.5rem 1rem;
-    cursor: pointer;
+   padding: 15px 30px;
 }
-
-.pricing-button {
-    background: linear-gradient(rgb(20, 19, 19), rgb(13, 12, 12)) padding-box,
-        linear-gradient(to right, rgb(227, 49, 85), darkorchid) border-box;
-    border-radius: 50em;
-    border: 4px solid transparent;
+.pricing-card:hover .pricing-button{
+    background: linear-gradient(90deg, #F7C301 0%, #F47E37 100%);   
 }
-
 .total-section h3 {
     font-weight: 600;
     font-size: 50px;
@@ -238,10 +240,12 @@ header hr {
     color: white;
     font-weight: 700;
 }
+
 .input-group.email-field {
     width: 600px;
-    margin: auto;    
+    margin: auto;
 }
+
 input.form-control {
     border-radius: 200px 0px 0px 200px;
     padding: 20px;
@@ -381,16 +385,18 @@ span.swiper-pagination-bullet.swiper-pagination-bullet {
 .item:hover {
     background-color: rgb(211, 211, 211);
 }
+
 .footer-logo-text.d-flex.align-items-center {
     justify-content: end;
 }
-.lear-bg{
-    background-image: url(../images/main/footer/lair-bg.png), 
+
+.lear-bg {
+    background-image: url(../images/main/footer/lair-bg.png),
         linear-gradient(180deg, rgba(0, 0, 0, 0.0) 17.46%, rgba(12, 12, 12, 0.54) 100%);
     background-repeat: no-repeat;
-    
-
+    background-size: 100% 100%;
 }
+
 .subscribe-are {
     background: rgba(12, 12, 12, 0.54);
 }
@@ -423,7 +429,7 @@ span.swiper-pagination-bullet.swiper-pagination-bullet {
         font-size: 25px;
     }
 
-    .card.pricing-card {
+    .card .pricing-card {
         margin-top: 40px;
     }
 
@@ -456,6 +462,7 @@ span.swiper-pagination-bullet.swiper-pagination-bullet {
     .footer-last-section {
         text-align: center;
     }
+
     .input-group.email-field {
         width: 330px;
         margin: auto;
@@ -492,18 +499,22 @@ span.swiper-pagination-bullet.swiper-pagination-bullet {
     .card.pricing-card {
         margin-top: 54px;
     }
+
     .input-group.email-field {
         width: 540px;
         margin: auto;
     }
+
     .footer-logo-text.mt-5.d-flex.justify-content-between {
         display: flex;
         flex-direction: column;
         text-align: center;
     }
+
     .footer-logo-text.mt-5.d-flex.justify-content-between div {
         margin-top: 25px;
     }
+
     .connected-text.d-flex.align-items-center {
         text-align: center;
         justify-content: center;
@@ -511,18 +522,22 @@ span.swiper-pagination-bullet.swiper-pagination-bullet {
         display: flex;
         align-items: center;
     }
+
     .country-drop-down-menu {
         margin: auto;
         padding: 30px 0px;
     }
+
     .copy-field {
         margin: auto;
         display: flex;
         justify-content: center;
     }
+
     .footer-logo-text.d-flex.align-items-center {
         justify-content: center;
     }
+
     .card-group.text-center.align-items-center.justify-content-center {
         display: flex;
         flex-direction: column;
@@ -543,9 +558,11 @@ span.swiper-pagination-bullet.swiper-pagination-bullet {
     .navbar-light .navbar-toggler {
         background: white;
     }
+
     .banner-text h1 {
         font-size: 40px;
     }
+
     .main-text h2 {
         font-size: 30px;
     }
