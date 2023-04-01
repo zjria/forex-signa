@@ -205,6 +205,20 @@ header hr {
 
 }
 
+.card-body .text-start .yes {
+    border: 1px solid #F7C301;
+    border-radius: 23px;
+    background: linear-gradient(90deg, #F7C301 91.6%, #FFFFFF 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+    padding: 0 10px;
+    font-weight: 700;
+}
+
+
+
 .pricing-button {
     padding: 15px 30px;
 }
@@ -234,6 +248,8 @@ header hr {
 .latest-card .card {
     background-color: #000000;
 }
+
+
 
 /*  Our Latest Blog */
 .latest-card .card {
