@@ -130,7 +130,12 @@ header hr {
     background: linear-gradient(rgb(8, 8, 8), rgb(5, 5, 5)) padding-box,
         linear-gradient(90deg, rgba(247, 195, 1, 0.8) 0%, rgba(244, 126, 55, 0.5) 100%) border-box;
 }
-.pricing-card:hover .top-bar{
+
+.pricing-card:hover {
+    border: 5px solid #0000;
+}
+
+.pricing-card:hover .top-bar {
     height: 28px;
     background: linear-gradient(90deg, #F7C301 0%, #F47E37 100%);
     box-shadow: 0px 10px 160px -2px rgba(0, 0, 0, 0.16);
@@ -150,10 +155,22 @@ header hr {
     font-size: 34px;
     line-height: 51px;
     text-align: center;
-    background: linear-gradient(95.39deg, rgba(255, 255, 255, 0) -6.03%, #FFFFFF 129.31%);
+    background: linear-gradient(95.39deg, rgba(255, 255, 255, 0) -6.03%, #FFFFFF 61.31%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
+}
+
+.card-body .card-dimond {
+    background: -webkit-linear-gradient(90deg, #FFFFFF 0%, #F7B70B 45.24%, #FFFFFF 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.pricing-card:hover .card-body h5 {
+    background: -webkit-linear-gradient(90deg, #F7C301 0%, #F47E37 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .pricing-section h3 {
@@ -189,11 +206,13 @@ header hr {
 }
 
 .pricing-button {
-   padding: 15px 30px;
+    padding: 15px 30px;
 }
-.pricing-card:hover .pricing-button{
-    background: linear-gradient(90deg, #F7C301 0%, #F47E37 100%);   
+
+.pricing-card:hover .pricing-button {
+    background: linear-gradient(90deg, #F7C301 0%, #F47E37 100%);
 }
+
 .total-section h3 {
     font-weight: 600;
     font-size: 50px;
