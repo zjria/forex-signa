@@ -106,7 +106,6 @@ header hr {
             rgba(12, 12, 12, 1),
             rgba(96, 51, 5, 1),
             rgba(12, 12, 12, 1));
-
 }
 
 .section-one {
@@ -123,110 +122,44 @@ header hr {
 }
 
 /* Pricing Section start */
+.pricing-card {
+    background-color: black;
+    border-radius: 21px;
+
+}
 
 .pricing-card {
-    border: 3px solid #0000;
-    border-radius: 25px;
-    background: linear-gradient(rgb(8, 8, 8), rgb(5, 5, 5)) padding-box,
-        linear-gradient(90deg, rgba(247, 195, 1, 0.8) 0%, rgba(244, 126, 55, 0.5) 100%) border-box;
+    border: 1px solid transparent;
+    background: linear-gradient(#080600, #080600) padding-box,
+        linear-gradient(to right, #F7C301 0%, #F47E37 100%) border-box;
 }
 
-.pricing-card:hover {
-    border: 5px solid #0000;
-}
-
-.pricing-card:hover .top-bar {
+.top-style {
     height: 28px;
     background: linear-gradient(90deg, #F7C301 0%, #F47E37 100%);
     box-shadow: 0px 10px 160px -2px rgba(0, 0, 0, 0.16);
     border-radius: 21px 21px 0px 0px;
 }
 
-.top-bar {
-    height: 28px;
-    background: linear-gradient(90deg, #000000 0%, #000000 100%);
-    box-shadow: 0px 10px 160px -2px rgba(0, 0, 0, 0.16);
-    border-radius: 21px 21px 0px 0px;
+.pricing-card .top-img {
+    height: 210px;
+    width: 90px;
 }
 
-
-.pricing-section h5 {
+.pricing-card h5 {
+    background: linear-gradient(95.39deg, rgba(255, 255, 255, 0) -6.03%, #FFFFFF 129.31%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
     font-weight: 700;
     font-size: 34px;
-    line-height: 51px;
-    text-align: center;
-    background: linear-gradient(95.39deg, rgba(255, 255, 255, 0) -6.03%, #FFFFFF 61.31%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
-}
-
-.card-body .card-dimond {
-    background: -webkit-linear-gradient(90deg, #FFFFFF 0%, #F7B70B 45.24%, #FFFFFF 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
-
-.pricing-card:hover .card-body h5 {
-    background: -webkit-linear-gradient(90deg, #F7C301 0%, #F47E37 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
-
-.pricing-section h3 {
-    font-weight: 700;
-    font-size: 48px;
-    line-height: 72px;
-    letter-spacing: -0.02em;
-    text-transform: uppercase;
-    color: #FFFFFF;
-}
-
-.pricing-section ul li img {
-    background: #000000;
-}
-
-.pricing-section ul li {
-    font-size: 18px;
-    opacity: 0.7;
-    list-style: none;
-    padding: 8px 0;
-}
-
-
-.pricing-card .header-img {
-    width: 80px;
-    height: 190px;
-}
-
-.button-primary {
-    background: linear-gradient(90deg, #F7C301 0%, #F47E37 100%);
-    border: 1px solid transparent;
-
-}
-
-.card-body .text-start .yes {
-    border: 1px solid #F7C301;
-    border-radius: 23px;
-    background: linear-gradient(90deg, #F7C301 91.6%, #FFFFFF 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
-    text-fill-color: transparent;
-    padding: 0 10px;
-    font-weight: 700;
 }
 
 
 
-.pricing-button {
-    padding: 15px 30px;
-}
 
-.pricing-card:hover .pricing-button {
-    background: linear-gradient(90deg, #F7C301 0%, #F47E37 100%);
-}
 
+
+/* Total Section Start */
 .total-section h3 {
     font-weight: 600;
     font-size: 50px;
