@@ -161,7 +161,7 @@ header hr {
 }
 
 .pricing-card .top-img {
-    height: 210px;
+    height: 200px;
     width: 90px;
 }
 
@@ -171,6 +171,42 @@ header hr {
     -webkit-text-fill-color: transparent;
     font-weight: 700;
     font-size: 34px;
+}
+
+.pricing-card .silver {
+    background: linear-gradient(95.39deg, rgba(255, 255, 255, 0) 28.97%, #FFFFFF 62.31%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 700;
+    font-size: 34px;
+}
+
+.pricing-card .gold {
+    background: linear-gradient(90deg, #F7C301 71%, #F47E37 131%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: #eee9e99e;
+    background-clip: text;
+    text-fill-color: transparent;
+    font-weight: 700;
+    font-size: 34px;
+}
+
+.pricing-card .dimond {
+    background: linear-gradient(90deg, #FFFFFF 37%, #F7B70B 45.24%, #FFFFFF 70%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+    font-weight: 700;
+    font-size: 34px;
+}
+
+.pricing-card:hover h5 {
+    background: linear-gradient(90deg, #F7C301 0%, #F47E37 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
 }
 
 .pricing-card ul li {
