@@ -139,11 +139,25 @@ header hr {
     border: 2px solid transparent;
 }
 
-.top-style {
+.pricing-card:hover .hover-style {
     height: 28px;
     background: linear-gradient(90deg, #F7C301 0%, #F47E37 100%);
     box-shadow: 0px 10px 160px -2px rgba(0, 0, 0, 0.16);
-    border-radius: 21px 21px 0px 0px;
+    border-radius: 18px 18px 0px 0px;
+}
+
+.hover-style {
+    height: 28px;
+    background: linear-gradient(90deg, #F7C301 0%, #F47E37 100%);
+    box-shadow: 0px 10px 160px -2px rgba(0, 0, 0, 0.16);
+    border-radius: 18px 18px 0px 0px;
+}
+
+.top-style {
+    height: 28px;
+    background: linear-gradient(90deg, #000000 0%, #000000 100%);
+    box-shadow: 0px 10px 160px -2px rgba(0, 0, 0, 0.16);
+    border-radius: 18px 18px 0px 0px;
 }
 
 .pricing-card .top-img {
@@ -165,6 +179,7 @@ header hr {
     line-height: 16px;
     padding: 5px 0px;
 }
+
 .pricing-card ul span.text-white {
     color: white;
     opacity: 0.7;
@@ -180,6 +195,7 @@ header hr {
     display: inline-flex;
     padding: 3px 10px;
 }
+
 .pricing-card ul li .no {
     background: linear-gradient(#080600, #080600) padding-box,
         linear-gradient(to right, #f70101 0%, #f46208 100%) border-box;
@@ -189,6 +205,11 @@ header hr {
     padding: 3px 10px;
     align-items: center;
     display: inline-flex;
+}
+
+.pricing-card:hover .pricing-button {
+    background: linear-gradient(90deg, #F7C301 0%, #F47E37 100%);
+    border-radius: 100px;
 }
 
 
