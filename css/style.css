@@ -52,6 +52,14 @@ p {
 }
 
 /* Banner Section Style */
+.banner-section {
+    margin-bottom: 25px;
+}
+
+.header-section {
+    margin-bottom: 40px;
+}
+
 .banner-text h6 {
     color: #F5FFCC;
 }
@@ -281,6 +289,12 @@ header hr {
 .latest-card .card {
     background: linear-gradient(#080600, #080600) padding-box,
         linear-gradient(to right, #dbd8cd 0%, #c4a18b 0%) border-box;
+    border: 1px solid #00000082;
+}
+
+.latest-card .card:hover {
+    background: linear-gradient(#080600, #080600) padding-box,
+        linear-gradient(to right, #dbd8cd 0%, #c4a18b 0%) border-box;
     border: 1px solid transparent;
 }
 
@@ -292,6 +306,32 @@ header hr {
     border-bottom: 1px solid transparent;
     border-image: linear-gradient(90deg, rgba(255, 217, 100, 0.1) 0%, rgba(255, 153, 0, 0.6) 50.31%, rgba(255, 153, 0, 0.14) 100%) 1;
 }
+
+button.btn-gradient-2.card-bottom {
+    background: linear-gradient(rgb(20, 19, 19), rgb(13, 12, 12)) padding-box,
+        linear-gradient(to right, #eba946, hsl(29, 100%, 48%)) border-box;
+    border-radius: 50em;
+    border: 1px solid #eae3e3d9;
+}
+
+.latest-card .card:hover button.btn-gradient-2.card-bottom {
+    background: linear-gradient(rgb(20, 19, 19), rgb(13, 12, 12)) padding-box,
+        linear-gradient(to right, #eba946, hsl(29, 100%, 48%)) border-box;
+    border-radius: 50em;
+    border: 1px solid transparent;
+}
+
+.card-body p i {
+    color: #ffa300fa;
+}
+
+.card-body h6 {
+    font-weight: 700;
+    font-size: 24px;
+    color: #FFFFFF;
+}
+
+
 
 /* Email Field */
 .email-field button {
@@ -308,8 +348,8 @@ header hr {
 }
 
 input.form-control {
-    border-radius: 200px 0px 0px 200px;
-    padding: 20px;
+    border-radius: 180px 0px 0px 180px;
+    padding: 15px;
 }
 
 /* Curosol */
@@ -459,12 +499,37 @@ span.swiper-pagination-bullet.swiper-pagination-bullet {
 }
 
 .subscribe-are {
-    background: rgba(12, 12, 12, 0.54);
+    background: linear-gradient(267deg, rgb(0 0 0 / 47%) 95%, rgb(0 0 0 / 32%) 58%, rgb(8 8 8 / 47%) 18%);
+}
+
+footer.mt-5 {
+    background: #00000061;
 }
 
 
-/* Responsive Style */
+
+
+
+
+
+
+
+
+/* ....................Responsive Style ..............*/
+
 @media screen and (max-width: 576px) {
+    .header-section {
+        margin-bottom: 0px;
+    }
+
+    section.container {
+        padding: 0 15px;
+    }
+
+    div#navbarSupportedContent {
+        text-align: center;
+    }
+
     .navbar-light .navbar-toggler {
         border-color: white;
     }
@@ -472,6 +537,10 @@ span.swiper-pagination-bullet.swiper-pagination-bullet {
     .navbar-toggler-icon {
         color: white;
         background: white;
+    }
+
+    .banner-section {
+        text-align: center;
     }
 
     .navbar-light .navbar-toggler {
@@ -528,6 +597,35 @@ span.swiper-pagination-bullet.swiper-pagination-bullet {
         width: 330px;
         margin: auto;
     }
+
+    .main-section {
+        margin-top: 0px;
+    }
+
+    .main-section.py-5.my-5 {
+        text-align: center;
+        padding: 0 15px;
+    }
+
+    .row.row-cols-1.row-cols-md-3 {
+        padding: 0 15px;
+    }
+
+    .col-12.col-sm-12.col-md-6.col-lg-4.p-0 {
+        margin: 30px 0px;
+    }
+
+    img.ps-5.ms-5 {
+        display: none;
+    }
+
+    .latest-title.pb-5 {
+        text-align: center;
+    }
+
+    .card.p-2 {
+        margin: 10px 0px;
+    }
 }
 
 @media screen and (min-width: 577px) and (max-width: 768px) {
@@ -535,9 +633,21 @@ span.swiper-pagination-bullet.swiper-pagination-bullet {
         border-color: white;
     }
 
+    div#navbarSupportedContent {
+        text-align: center;
+    }
+
     .navbar-toggler-icon {
         color: white;
         background: white;
+    }
+
+    section.container {
+        padding: 0 15px;
+    }
+
+    .banner-section {
+        text-align: center;
     }
 
     .navbar-light .navbar-toggler {
@@ -604,9 +714,50 @@ span.swiper-pagination-bullet.swiper-pagination-bullet {
         flex-direction: column;
     }
 
+    .main-section.py-5.my-5 {
+        text-align: center;
+        padding: 0 15px;
+    }
+
+    .row.row-cols-1.row-cols-md-3 {
+        padding: 0 15px;
+    }
+
+    .col-12.col-sm-12.col-md-6.col-lg-4.p-0 {
+        margin: 30px 0px;
+    }
+
+    img.ps-5.ms-5 {
+        display: none;
+    }
+
+    .latest-title.pb-5 {
+        text-align: center;
+    }
+
+    .card.p-2 {
+        margin: 10px 0px;
+    }
+
+    p.py-3 {
+        font-size: 12px;
+    }
+
 }
 
 @media screen and (min-width: 769px) and (max-width: 992px) {
+    div#navbarSupportedContent {
+        text-align: center;
+    }
+
+    section.container {
+        padding: 0 15px;
+    }
+
+    .banner-section {
+        text-align: center;
+    }
+
     .navbar-light .navbar-toggler {
         border-color: white;
     }
@@ -621,11 +772,36 @@ span.swiper-pagination-bullet.swiper-pagination-bullet {
     }
 
     .banner-text h1 {
-        font-size: 40px;
+        font-size: 35px;
     }
 
     .main-text h2 {
-        font-size: 30px;
+        font-size: 20px;
+    }
+
+    .main-section.py-5.my-5 {
+        text-align: center;
+        padding: 0 15px;
+    }
+
+    .row.row-cols-1.row-cols-md-3 {
+        padding: 0 15px;
+    }
+
+    .col-12.col-sm-12.col-md-6.col-lg-4.p-0 {
+        margin: 30px 0px;
+    }
+
+    img.ps-5.ms-5 {
+        display: none;
+    }
+
+    .latest-title.pb-5 {
+        text-align: center;
+    }
+
+    .card.p-2 {
+        margin: 10px 0px;
     }
 
 }
