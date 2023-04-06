@@ -1,0 +1,22 @@
+.home-about-section ul li {
+    list-style: none;
+    opacity: 0.7;
+}
+
+.header-bg-section {
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-image: linear-gradient(rgb(26 26 27), rgb(6 6 5 / 77%)), url(../about-us/imges/header-bg.png);
+}
+
+.main-text .main-header-text h3 {
+    font-size: 34px;
+}
+
+.our-service p {
+    font-size: 13px;
+}
+
+.choose-us-section .images-section img {
+    height: 602px;
+}
