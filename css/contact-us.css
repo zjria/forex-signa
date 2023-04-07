@@ -1,0 +1,60 @@
+.form-section input {
+    border-radius: 0;
+    background: linear-gradient(0deg, #0C0C0C, #0C0C0C),
+        linear-gradient(90deg, rgb(251 251 251) 0%, rgb(255 255 255) 100%);
+    color: white;
+    border-radius: 2px;
+    border-color: #f79305db;
+    outline: 0;
+    box-shadow: 0px;
+}
+
+.form-section input:focus {
+    border-radius: 0;
+    background: linear-gradient(0deg, #0C0C0C, #0C0C0C),
+        linear-gradient(90deg, rgb(251 251 251) 0%, rgb(255 255 255) 100%);
+    color: white;
+    border-radius: 2px;
+    border-color: #f79305db;
+    outline: 0;
+    box-shadow: 0px;
+}
+
+.form-control:focus {
+    border-color: #f79305db;
+    outline: 0;
+    box-shadow: 0px;
+    outline: none;
+    box-shadow: none;
+    color: #fff;
+}
+
+.form-section input[type='text']::-webkit-input-placeholder {
+    color: #fff
+}
+
+
+textarea {
+    border-radius: 0;
+    background: linear-gradient(0deg, #0C0C0C, #0C0C0C),
+        linear-gradient(90deg, rgb(251 251 251) 0%, rgb(255 255 255) 100%);
+    color: white;
+    border-radius: 2px;
+    border-color: #f79305db;
+    outline: 0;
+    box-shadow: 0px;
+    width: 100%;
+    padding: 15px;
+}
+
+.text-area {
+    width: 100%;
+}
+
+::placeholder {
+    color: #fff
+}
+
+.input-group input.form-control {
+    color: #000;
+}

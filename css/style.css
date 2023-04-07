@@ -49,6 +49,7 @@ p {
 
 .button-primary {
     background: linear-gradient(90deg, #F7C301 0%, #F47E37 100%);
+    border: none;
 }
 
 /* Why We Extra Ordinary Section */
@@ -790,7 +791,8 @@ footer.mt-5 {
     }
 
     .main-text h2 {
-        font-size: 20px;
+        font-size: 40px;
+        font-weight: 700;
     }
 
     .main-section.py-5.my-5 {
