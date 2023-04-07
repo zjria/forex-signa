@@ -51,6 +51,11 @@ p {
     background: linear-gradient(90deg, #F7C301 0%, #F47E37 100%);
 }
 
+/* Why We Extra Ordinary Section */
+.main-section .images-section img {
+    height: 490.74px;
+}
+
 /* Banner Section Style */
 .banner-section {
     margin-bottom: 25px;
@@ -417,7 +422,7 @@ span.swiper-pagination-bullet.swiper-pagination-bullet {
 }
 
 .icons ul li a {
-    padding: 8px 14px;
+    padding: 8px 12px;
     color: white;
     font-weight: 700;
 }
@@ -427,10 +432,10 @@ span.swiper-pagination-bullet.swiper-pagination-bullet {
 }
 
 .logo ul li {
-    margin: 0 10px;
+    margin: 0 7px;
     background: #1F1F1F;
     border-radius: 100%;
-    padding: 6px 12px;
+    padding: 6px 8px;
 }
 
 /* Drop down menu */
@@ -625,6 +630,15 @@ footer.mt-5 {
 
     .card.p-2 {
         margin: 10px 0px;
+    }
+
+    .footer-logo-text.d-flex.align-items-center {
+        justify-content: center;
+    }
+
+    .row.footer-tow-section {
+        display: flex;
+        flex-direction: column-reverse;
     }
 }
 
