@@ -1,43 +1,53 @@
 body {
     font-family: 'Poppins', sans-serif;
-    color: white;
 }
 
-/* Primary and secondary Text Style */
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-    color: white;
-    font-weight: 700;
-}
-
-p {
-    color: white;
-    opacity: 0.9;
-}
-
-.main-header-text hr {
-    width: 34px;
-    height: 0px;
-    border: 2px solid #F5FFCC;
-}
-
-.main-header-text h6 {
+/* ========================== Primary section start ========================= */
+.header-text-underline-style h6 span {
+    font-size: 16px;
+    line-height: 117.7%;
+    letter-spacing: -0.03em;
+    text-transform: uppercase;
     color: #F5FFCC;
+    margin-right: 9px;
 }
 
+.header-text-underline-style h6 span hr {
+    width: 34px;
+    height: 1px;
+    border: 2px solid #f5ffcc;
+    margin-top: 8px;
+    border-radius: 2px;
+}
 
+/* ======================== Primary section End ======================= */
+.we-are-special .special-section h1 {
+    font-size: 48px;
+    line-height: 79px;
+    margin-top: 14px;
+}
 
-/* Primary and secondary Button Style */
+/* ======================== header section start ============================== */
+ul.navbar-nav.me-auto.mb-lg-0 {
+    padding-left: 25px;
+}
+
+ul.navbar-nav.me-auto.mb-lg-0 li a {
+    padding: 0px 20px;
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: 0.01em;
+}
+
+.button-section .parent button {
+    font-size: 14px;
+    line-height: 158.7%;
+}
 
 .btn-gradient-2 {
-    font-size: 1em;
-    color: white;
-    padding: 0.5rem 1rem;
-    cursor: pointer;
+    padding: 12px 28px;
+    font-size: 14px;
+    letter-spacing: -0.03em;
 }
 
 .btn-gradient-2 {
@@ -52,26 +62,68 @@ p {
     border: none;
 }
 
-/* Why We Extra Ordinary Section */
 .main-section .images-section img {
     height: 490.74px;
 }
 
-/* Banner Section Style */
-.banner-section {
-    margin-bottom: 25px;
+.header-section {
+    margin-bottom: 130px;
+    padding-top: 18px;
 }
 
-.header-section {
-    margin-bottom: 40px;
+/* ===================================Banner Section Style============================= */
+
+.banner-section {
+    margin-bottom: 92px;
+}
+
+.banner-section .padding-right {
+    padding-right: 45px;
+}
+
+.banner-section .padding-left {
+    padding-left: 45px;
 }
 
 .banner-text h6 {
     color: #F5FFCC;
+    font-size: 16px;
+    line-height: 117.7%;
+    letter-spacing: -0.03em;
+    margin-bottom: 17px;
 }
 
 .banner-text h1 {
     font-size: 64px;
+    line-height: 79px;
+    margin-bottom: 20px;
+}
+
+.banner-text p {
+    font-size: 16px;
+    line-height: 187.7%;
+    color: #FFFFFF;
+    opacity: 0.9;
+    margin-bottom: 25px;
+}
+
+.banner-section button {
+    padding: 15px 34px;
+}
+
+button:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.btn:focus, .btn.focus {
+    outline: none !important;
+}
+
+.banner-section button a {
+    font-size: 15px;
+    line-height: 158.7%;
+    color: #FFFFFF;
 }
 
 header hr {
@@ -80,15 +132,128 @@ header hr {
     font-weight: 800;
 }
 
-.main-text h2 {
-    font-size: 48px;
+/* ===============================Why We Extra Ordinary========================= */
+article.we-extra-ordinary {
+    margin-bottom: 130px;
 }
 
-/* Card Style Section */
-.card-style {
-    background: rgb(255, 217, 100, 0.1);
-    border: 1px solid transparent;
-    border-image: linear-gradient(90deg, rgba(255, 217, 100, 0.1) 0%, rgba(255, 153, 0, 0.6) 50.31%, rgba(255, 153, 0, 0.14) 100%) 1;
+.we-extra-ordinary .padding-right {
+    padding-right: 45px;
+}
+
+.we-extra-ordinary .padding-left {
+    padding-left: 45px;
+}
+
+.main-text h2 {
+    font-size: 48px;
+    line-height: 79px;
+}
+
+.main-text p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 187.7%;
+    color: #FFFFFF;
+    opacity: 0.9;
+    margin-bottom: 36px;
+}
+
+.we-extra-ordinary .main-section .parent a button {
+    font-size: 15px;
+    line-height: 158.7%;
+    padding: 15px 34px;
+}
+
+/* ==============================Why We Are Special============================= */
+.we-are-special .special-section p {
+    font-size: 16px;
+    line-height: 187.7%;
+    text-align: center;
+    color: #FFFFFF;
+    opacity: 0.9;
+}
+
+.we-are-special .card-style {
+    border: 2px solid transparent;
+    border-radius: 16px;
+    background: linear-gradient(0deg, #0C0C0C, #0C0C0C) padding-box,
+        linear-gradient(90deg, rgb(255 217 100 / 46%) 0%, rgba(255, 153, 0, 0.6) 50.31%, rgb(255 153 0 / 40%) 100%);
+}
+
+.we-are-special .special-section h5 {
+    font-size: 30px;
+    line-height: 45px;
+
+}
+
+.we-are-special .special-section p {
+    font-size: 16px;
+    line-height: 187.7%;
+    text-align: center;
+    color: #FFFFFF;
+    opacity: 0.9;
+    margin-bottom: 45px;
+}
+
+.we-are-special .special-part {
+    margin-bottom: 75px;
+    padding: 0 23px;
+}
+
+
+/* ==============================Checkout Our Few Signals============================= */
+.checkout-section {
+    padding-top: 91px;
+    padding-bottom: 125px;
+}
+
+.checkout-are {
+    background-image: linear-gradient(90deg,
+            rgba(12, 12, 12, 1),
+            rgb(96 51 5 / 73%),
+            rgba(12, 12, 12, 1));
+    margin-top: 130px;
+}
+
+.main-header-text h1 {
+    font-size: 48px;
+    line-height: 79px;
+    margin: 14px 0px 9px 0px;
+}
+
+.main-header-text p {
+    font-size: 16px;
+    line-height: 187.7%;
+    text-align: center;
+    color: #FFFFFF;
+    opacity: 0.9;
+    margin-bottom: 45px;
+}
+
+.few-signals-items p {
+    align-items: center;
+    display: flex;
+    margin: 0;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.few-signals-items .last-items {
+    align-items: center;
+    display: flex;
+    margin: 0;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.few-signals-items img {
+    width: 42%;
+    margin: auto;
+}
+
+.special-part .special-card-body {
+    padding: 21px 22px 34px 22px;
 }
 
 .card-border {
@@ -115,13 +280,6 @@ header hr {
     margin-top: -30px;
 }
 
-.checkout-are {
-    background-image: linear-gradient(90deg,
-            rgba(12, 12, 12, 1),
-            rgba(96, 51, 5, 1),
-            rgba(12, 12, 12, 1));
-}
-
 .section-one {
     background: linear-gradient(90deg, rgba(217, 217, 217, 0) 0%, rgba(91, 91, 91, 0.33) 50.31%, rgba(217, 217, 217, 0) 100%);
 }
@@ -135,7 +293,43 @@ header hr {
     background: rgba(255, 153, 0, 0.6);
 }
 
-/* Pricing Section start */
+
+/* ============================Pricing Section start============================ */
+.pricing-section {
+    padding-top: 130px;
+    padding-bottom: 161px;
+}
+
+.pricing-card h3 {
+    font-size: 48px;
+    line-height: 72px;
+    margin-bottom: 19px;
+}
+
+.pricing-card .card-latest-line {
+    border-bottom: 1px solid black;
+    border-image: linear-gradient(90deg, rgba(255, 217, 100, 0.1) 0%, rgb(255 153 0) 50.31%, rgba(255, 153, 0, 0.14) 100%) 1;
+    margin-bottom: 42px;
+    height: 2px;
+    font-weight: 700;
+}
+
+.pricing-card h3 {
+    font-size: 48px;
+    line-height: 72px;
+    margin-bottom: 19px;
+}
+
+.pricing-section h1 {
+    font-size: 48px;
+    line-height: 72px;
+    margin-bottom: 45px;
+}
+
+.pricing-section .card-field {
+    padding: 0px;
+}
+
 .pricing-card {
     border: 2px solid #0000009e;
     background: linear-gradient(#080600, #080600) padding-box,
@@ -144,6 +338,33 @@ header hr {
     box-sizing: border-box;
     -webkit-transition: 0.5s;
     transition: 0.5s;
+}
+
+.pricing-card .top-images {
+    padding-top: 18px;
+    margin: auto;
+}
+
+.pricing-card h5 {
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 51px;
+}
+
+ul.text-start {
+    padding-left: 27px;
+}
+
+ul.text-start li img {
+    padding-right: 18px;
+}
+
+.button-section .parent .btn-gradient-2 {
+    padding: 23px 30px;
+    font-size: 14px;
+    letter-spacing: -0.03em;
+    font-size: 18px;
+    line-height: 22px;
 }
 
 .pricing-card:hover {
@@ -184,7 +405,10 @@ header hr {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-weight: 700;
+    margin-top: 2px;
+    margin-bottom: 18px;
     font-size: 34px;
+    line-height: 51px;
 }
 
 .pricing-card .silver {
@@ -225,9 +449,10 @@ header hr {
 
 .pricing-card ul li {
     list-style: none;
-    font-size: 16px;
-    line-height: 16px;
-    padding: 5px 0px;
+    padding: 13px 0px;
+    color: white;
+    font-size: 18px;
+    line-height: 26px;
 }
 
 .pricing-card ul span.text-white {
@@ -261,9 +486,6 @@ header hr {
     background: linear-gradient(90deg, #F7C301 0%, #F47E37 100%);
     border-radius: 100px;
 }
-
-
-
 
 
 /* Total Section Start */
@@ -309,8 +531,11 @@ header hr {
 }
 
 .card-latest-line {
-    border-bottom: 1px solid transparent;
-    border-image: linear-gradient(90deg, rgba(255, 217, 100, 0.1) 0%, rgba(255, 153, 0, 0.6) 50.31%, rgba(255, 153, 0, 0.14) 100%) 1;
+    border-bottom: 1px solid black;
+    border-image: linear-gradient(90deg, rgba(255, 217, 100, 0.1) 0%, rgb(255 153 0) 50.31%, rgba(255, 153, 0, 0.14) 100%) 1;
+    margin-bottom: 120px;
+    height: 2px;
+    font-weight: 700;
 }
 
 button.btn-gradient-2.card-bottom {
@@ -521,9 +746,17 @@ footer.mt-5 {
 
 
 
-/* ....................Responsive Style ..............*/
+/* ===================================== Responsive Style ================================= */
 
 @media screen and (max-width: 576px) {
+    ul.navbar-nav.me-auto.mb-lg-0 {
+        padding-left: 0px;
+    }
+
+    ul.navbar-nav.me-auto.mb-lg-0 li a {
+        padding: 10px 20px;
+    }
+
     .header-section {
         margin-bottom: 0px;
     }
@@ -534,35 +767,30 @@ footer.mt-5 {
 
     div#navbarSupportedContent {
         text-align: center;
+        padding-bottom: 30px;
     }
 
-    .navbar-light .navbar-toggler {
-        border-color: white;
-    }
-
-    .navbar-toggler-icon {
-        color: white;
-        background: white;
-    }
 
     .banner-section {
         text-align: center;
     }
 
     .navbar-light .navbar-toggler {
+        border-color: white;
+    }
+
+    .navbar-light .navbar-toggler {
         background: white;
+        border: 1px solid #F47E37;
     }
 
     .banner-text h1 {
-        font-size: 35px;
+        font-size: 30px;
+        line-height: 45px;
     }
 
     .images-section.d-flex {
         margin-top: 30px;
-    }
-
-    .main-text h2 {
-        font-size: 25px;
     }
 
     .card .pricing-card {
@@ -641,20 +869,131 @@ footer.mt-5 {
         display: flex;
         flex-direction: column-reverse;
     }
+
+    .banner-text h6 {
+        margin: 17px 0px;
+    }
+
+    .banner-text p {
+        font-size: 14px;
+        line-height: 180.7%;
+    }
+
+    .banner-section button {
+        padding: 10px 30px;
+    }
+
+    .banner-section {
+        margin-bottom: 50px;
+    }
+
+    .card-latest-line {
+        margin-bottom: 80px;
+    }
+
+    .banner-section .padding-right {
+        padding-right: 12px;
+        margin-bottom: 10px;
+    }
+
+    .banner-section .padding-left {
+        padding-right: 12px;
+    }
+
+    .main-text {
+        margin-top: 30px;
+    }
+
+    .we-extra-ordinary .padding-right {
+        padding-right: 12px;
+    }
+
+    .we-extra-ordinary .padding-left {
+        padding-left: 12px;
+    }
+
+    .main-text h2 {
+        font-size: 25px;
+        line-height: 40px;
+    }
+
+    .button-section .parent {
+        text-align: center;
+    }
+
+    .banner-section .padding-left {
+        padding-left: 12px;
+    }
+
+    .we-extra-ordinary .main-section .parent a button {
+        padding: 8px 16px;
+    }
+
+    article.we-extra-ordinary {
+        margin-bottom: 60px;
+    }
+
+    .we-are-special .special-section h1 {
+        font-size: 35px;
+        line-height: 50px;
+    }
+
+    .special-part .special-card-body {
+        padding: 21px 22px 0px 22px;
+    }
+
+    .checkout-are {
+        margin-top: 0px;
+    }
+
+    .checkout-section {
+        padding-top: 20px;
+        padding-bottom: 50px;
+    }
+
+    .main-header-text h1 {
+        font-size: 35px;
+        line-height: 50px;
+    }
+
+    .pricing-section .card-field {
+        margin-bottom: 60px;
+    }
+
+    .pricing-section {
+        padding-top: 45px;
+        padding-bottom: 80px;
+    }
 }
 
 @media screen and (min-width: 577px) and (max-width: 768px) {
+    ul.navbar-nav.me-auto.mb-lg-0 {
+        padding-left: 0px;
+    }
+
+    article.we-extra-ordinary {
+        margin-bottom: 80px;
+    }
+
+    .banner-section .padding-left {
+        padding-left: 12px;
+    }
+
     .navbar-light .navbar-toggler {
         border-color: white;
     }
 
-    div#navbarSupportedContent {
-        text-align: center;
+    .navbar-light .navbar-toggler {
+        background: white;
+        border: 1px solid #F47E37;
     }
 
-    .navbar-toggler-icon {
-        color: white;
-        background: white;
+    ul.navbar-nav.me-auto.mb-lg-0 li a {
+        padding: 10px 20px;
+    }
+
+    div#navbarSupportedContent {
+        text-align: center;
     }
 
     section.container {
@@ -663,14 +1002,13 @@ footer.mt-5 {
 
     .banner-section {
         text-align: center;
-    }
-
-    .navbar-light .navbar-toggler {
-        background: white;
+        margin-top: -70px;
+        margin-bottom: 50px;
     }
 
     .banner-text h1 {
         font-size: 35px;
+        line-height: 60px;
     }
 
     .images-section.d-flex {
@@ -758,11 +1096,71 @@ footer.mt-5 {
         font-size: 12px;
     }
 
+    .banner-section .padding-right {
+        padding-right: 12px;
+        margin-bottom: 10px;
+    }
+
+    .banner-section .padding-left {
+        padding-right: 12px;
+    }
+
+    .we-extra-ordinary .padding-right {
+        padding-right: 12px;
+    }
+
+    .we-extra-ordinary .padding-left {
+        padding-left: 12px;
+    }
+
+    .main-text h2 {
+        font-size: 25px;
+        line-height: 40px;
+    }
+
+    .button-section .parent {
+        text-align: center;
+    }
+
+    .card-latest-line {
+        margin-bottom: 75px;
+    }
+
+    .pricing-section .card-field {
+        margin-bottom: 60px;
+    }
+
+    .pricing-section {
+        padding-top: 45px;
+        padding-bottom: 80px;
+    }
+
 }
 
 @media screen and (min-width: 769px) and (max-width: 992px) {
+    ul.navbar-nav.me-auto.mb-lg-0 {
+        padding-left: 0px;
+    }
+
+    .banner-section .padding-left {
+        padding-left: 12px;
+    }
+
     div#navbarSupportedContent {
         text-align: center;
+    }
+
+    .navbar-light .navbar-toggler {
+        border-color: white;
+    }
+
+    .navbar-light .navbar-toggler {
+        background: white;
+        border: 1px solid #F47E37;
+    }
+
+    ul.navbar-nav.me-auto.mb-lg-0 li a {
+        padding: 10px 20px;
     }
 
     section.container {
@@ -771,28 +1169,27 @@ footer.mt-5 {
 
     .banner-section {
         text-align: center;
+        margin-top: -60px;
+        margin-bottom: 45px;
     }
 
-    .navbar-light .navbar-toggler {
-        border-color: white;
-    }
-
-    .navbar-toggler-icon {
-        color: white;
-        background: white;
-    }
-
-    .navbar-light .navbar-toggler {
-        background: white;
+    .card-latest-line {
+        margin-bottom: 60px;
     }
 
     .banner-text h1 {
         font-size: 35px;
+        line-height: 50px;
+    }
+
+    .banner-section button {
+        padding: 10px 16px;
     }
 
     .main-text h2 {
-        font-size: 40px;
-        font-weight: 700;
+        font-size: 35px;
+        /* font-weight: 700; */
+        line-height: 55px;
     }
 
     .main-section.py-5.my-5 {
@@ -820,4 +1217,52 @@ footer.mt-5 {
         margin: 10px 0px;
     }
 
+    .banner-section .padding-right {
+        padding-right: 12px;
+        margin-bottom: 10px;
+    }
+
+    .banner-section .padding-left {
+        padding-right: 12px;
+    }
+
+    .we-extra-ordinary .padding-right {
+        padding-right: 12px;
+    }
+
+    .we-extra-ordinary .padding-left {
+        padding-left: 12px;
+    }
+
+    .main-text p {
+        font-size: 14px;
+    }
+
+    article.we-extra-ordinary {
+        margin-bottom: 90px;
+    }
+
+    .we-are-special .special-section h1 {
+        font-size: 43px;
+        line-height: 60px;
+        margin-top: 14px;
+    }
+
+    .we-are-special .special-section h5 {
+        font-size: 25px;
+    }
+
+    .we-are-special .special-part {
+        margin-bottom: 50px;
+        padding: 0 12px;
+    }
+
+    .pricing-section .card-field {
+        margin-bottom: 60px;
+    }
+
+    .pricing-section {
+        padding-top: 45px;
+        padding-bottom: 80px;
+    }
 }
