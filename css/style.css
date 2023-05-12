@@ -488,10 +488,30 @@ ul.text-start li img {
 }
 
 
-/* Total Section Start */
-.total-section h3 {
-    font-weight: 600;
+/* ===================================Total Section Start======================== */
+.total-border .number-logo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.text-field {
+    padding: 71px 0px 71px 118px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.total-section .total-border .text-field h3 {
     font-size: 50px;
+    line-height: 75px;
+}
+
+.total-section .total-border .text-field p {
+    font-size: 20px;
+    line-height: 28px;
+    letter-spacing: -0.03em;
+    color: #717282;
 }
 
 .total-section p {
@@ -964,9 +984,19 @@ footer.mt-5 {
         padding-top: 45px;
         padding-bottom: 80px;
     }
+
+    .total-border .number-logo img {
+        display: none;
+    }
+
+    .text-field {
+        padding: 29px 0px 19px 118px;
+    }
+
 }
 
 @media screen and (min-width: 577px) and (max-width: 768px) {
+
     ul.navbar-nav.me-auto.mb-lg-0 {
         padding-left: 0px;
     }
@@ -1135,6 +1165,14 @@ footer.mt-5 {
         padding-bottom: 80px;
     }
 
+    .total-border .number-logo img {
+        display: none;
+    }
+
+    .text-field {
+        padding: 29px 0px 19px 70px;
+    }
+
 }
 
 @media screen and (min-width: 769px) and (max-width: 992px) {
@@ -1264,5 +1302,13 @@ footer.mt-5 {
     .pricing-section {
         padding-top: 45px;
         padding-bottom: 80px;
+    }
+
+    .total-border .number-logo img {
+        display: none;
+    }
+
+    .text-field {
+        padding: 20px 0px 20px 118px;
     }
 }
