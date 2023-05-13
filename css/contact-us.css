@@ -105,6 +105,9 @@ textarea {
     color: #000;
 }
 
+.row.footer-tow-section {
+    align-items: center;
+}
 
 /* ==========================Responsive degains========================== */
 

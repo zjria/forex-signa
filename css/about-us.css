@@ -231,6 +231,10 @@
     padding-top: 102px;
 }
 
+.row.footer-tow-section {
+    align-items: center;
+}
+
 /* ==========================Responsive degains========================== */
 
 @media screen and (max-width: 576px) {

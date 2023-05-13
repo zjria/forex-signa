@@ -216,6 +216,15 @@ article.we-extra-ordinary {
     margin-top: 130px;
 }
 
+.checkout-section .signal-para {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 187.7%;
+    text-align: center;
+    color: #FFFFFF;
+    opacity: 0.9;
+    margin-bottom: 45px;
+}
 
 .few-signals-items p {
     align-items: center;
@@ -983,6 +992,9 @@ footer.mt-5 {
     padding: 7px 13px;
 }
 
+.row.footer-tow-section {
+    align-items: center;
+}
 
 
 
@@ -1195,6 +1207,16 @@ footer.mt-5 {
         padding-bottom: 50px;
     }
 
+    .checkout-section p {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 187.7%;
+        text-align: center;
+        color: #FFFFFF;
+        opacity: 0.9;
+        margin-bottom: 0px;
+    }
+
     .pricing-section .card-field {
         margin-bottom: 60px;
     }
@@ -1246,16 +1268,43 @@ footer.mt-5 {
 
     .email-field button {
         font-weight: normal;
-        padding: 8px 5px;
+        padding: 11px 4px;
     }
 
     .col-12.col-md-4.col-lg-2 {
         text-align: center;
     }
 
+    .few-signals-items img {
+        width: 35%;
+        margin: auto;
+    }
+
+    .latest-blog-read-more a button {
+        padding: 14px 28px;
+    }
+
+    .pricing-section h1 {
+        font-size: 30px;
+        line-height: 72px;
+        margin-bottom: 45px;
+    }
+
 }
 
 @media screen and (min-width: 577px) and (max-width: 768px) {
+    .latest-blog-read-more a button {
+        padding: 15px 30px;
+    }
+
+    .checkout-section {
+        padding-top: 55px;
+        padding-bottom: 52px;
+    }
+
+    .checkout-are {
+        margin-top: 30px;
+    }
 
     ul.navbar-nav.me-auto.mb-lg-0 {
         padding-left: 0px;
@@ -1467,11 +1516,16 @@ footer.mt-5 {
 
     .email-field button {
         font-weight: normal;
-        padding: 8px 5px;
+        padding: 11px 18px;
     }
 
     .col-12.col-md-4.col-lg-2 {
         text-align: center;
+    }
+
+    .few-signals-items img {
+        width: 30%;
+        margin: auto;
     }
 
 }
@@ -1633,5 +1687,13 @@ footer.mt-5 {
 
     .blog-padding-left {
         padding: 0px 12px 0px 12px;
+    }
+
+    .latest-blog-read-more a button {
+        padding: 10px 27px;
+    }
+
+    .blog-information .blog-details h5 {
+        font-size: 18px;
     }
 }
