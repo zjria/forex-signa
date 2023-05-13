@@ -216,20 +216,6 @@ article.we-extra-ordinary {
     margin-top: 130px;
 }
 
-.main-header-text h1 {
-    font-size: 48px;
-    line-height: 79px;
-    margin: 14px 0px 9px 0px;
-}
-
-.main-header-text p {
-    font-size: 16px;
-    line-height: 187.7%;
-    text-align: center;
-    color: #FFFFFF;
-    opacity: 0.9;
-    margin-bottom: 45px;
-}
 
 .few-signals-items p {
     align-items: center;
@@ -294,7 +280,7 @@ article.we-extra-ordinary {
 }
 
 
-/* ============================Pricing Section start============================ */
+/* ============================Pricing Section============================ */
 .pricing-section {
     padding-top: 130px;
     padding-bottom: 161px;
@@ -488,7 +474,7 @@ ul.text-start li img {
 }
 
 
-/* ===================================Total Section Start======================== */
+/* ===================================Total cline numbers Section======================== */
 .total-border .number-logo {
     display: flex;
     align-items: center;
@@ -526,14 +512,142 @@ ul.text-start li img {
     border: 1px solid transparent;
 }
 
+/* ==============================Grow With Us============================== */
+
+article.grow-are {
+    margin-top: 130px;
+}
+
+.grow-section h1 {
+    font-size: 48px;
+    line-height: 72px;
+    margin: 2px 0px 10px 0px;
+}
+
+.grow-section p {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 187.7%;
+    text-align: center;
+    color: #FFFFFF;
+    opacity: 0.9;
+    margin-bottom: 45px;
+}
+
+.grow-section h1 {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 72px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+/* ============================Our user Say============================ */
+.user-say-section {
+    margin-top: 130px;
+}
+
+.carousel-swiper {
+    padding-top: 104px;
+}
+
+.user-say-section h1 {
+    font-weight: 700;
+    font-size: 48px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
 .owl-carousel .item-field,
 .latest-card .card {
     background-color: #000000;
 }
 
+.border-line {
+    border-bottom: 1px solid transparent;
+    border-image: linear-gradient(90deg, rgba(255, 217, 100, 0.1) 0%, rgba(255, 153, 0, 0.6) 50.31%,
+            rgba(255, 153, 0, 0.14) 100%) 1;
+}
 
+.swiper-slide .card {
+    background: rgb(255, 217, 100, 0.1);
+    border: 1px solid transparent;
+    border-image: linear-gradient(90deg, rgba(255, 217, 100, 0.1) 0%, rgba(255, 153, 0, 0.6) 50.31%, rgba(255, 153, 0, 0.14) 100%) 1;
+}
 
-/*  Our Latest Blog */
+.swiper-slide .card:hover {
+    background: rgb(255, 217, 100, 0.1);
+    border: 1px solid transparent;
+    border-image: linear-gradient(90deg, rgb(255 217 100 / 70%) 0%, rgb(255 153 0) 50.31%, rgb(255 153 0 / 70%) 100%) 1;
+}
+
+.swiper-slide .card p {
+    color: #FFFFFF;
+    opacity: 0.7;
+    line-height: 30px;
+    margin-bottom: 25px;
+}
+
+.swiper-slide p.user-details {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 30px;
+    text-align: center;
+    color: #FFFFFF;
+    opacity: 0.7;
+    padding: 17px 23px 40px 23px;
+}
+
+.swiper-slide .card img {
+    width: 110px;
+    border-radius: 50%;
+    margin-top: -50px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.swiper-slide h6 {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 18px;
+    text-align: center;
+    color: #FFFFFF;
+    opacity: 0.7;
+    margin: 23px 0px 10px 0px;
+}
+
+.mySwiper {
+    display: flex;
+    align-items: center;
+}
+
+span.swiper-pagination-bullet.swiper-pagination-bullet {
+    background: linear-gradient(90deg, #F7C301 0%, #F47E37 100%);
+    width: 18px;
+    height: 16px;
+    border: 1px solid;
+    border-image-source: linear-gradient(90deg, rgba(217, 217, 217, 0) 0%, rgba(255, 153, 0, 0.6) 50.31%, rgba(217, 217, 217, 0) 100%);
+    padding: 4px;
+}
+
+.swiper-section {
+    margin-bottom: 60px;
+}
+
+/*  =============================Our Latest Blog ============================= */
+article.latest-blog {
+    margin-top: 142px;
+}
+
+article.latest-blog h1 {
+    font-weight: 700;
+    font-size: 48px;
+    margin-bottom: 40px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
 .latest-card .card {
     background: linear-gradient(#080600, #080600) padding-box,
         linear-gradient(to right, #dbd8cd 0%, #c4a18b 0%) border-box;
@@ -546,8 +660,12 @@ ul.text-start li img {
     border: 1px solid transparent;
 }
 
-.latest-card .card-text {
-    font-size: 17px;
+.blog-information .blog-details h5 {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    color: #FFFFFF;
+    margin-bottom: 10px;
 }
 
 .card-latest-line {
@@ -582,15 +700,98 @@ button.btn-gradient-2.card-bottom {
     color: #FFFFFF;
 }
 
+.blog-information .blog-details h6 {
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.01em;
+    color: #E2E2E2;
+    margin-bottom: 8px;
+}
+
+.blog-information .blog-details p.details-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+    text-transform: capitalize;
+    color: #E2E2E2;
+}
+
+.blog-information .blog-details p i {
+    margin-right: 7px;
+}
+
+.blog-information .blog-bottom {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    text-transform: capitalize;
+    color: #FFFFFF;
+}
+
+.card-body.blog-details {
+    padding: 12px 0px 0px 0px;
+}
+
+.blog-information {
+    padding: 20px;
+}
+
+.blog-padding-left {
+    padding: 0px 0px 0px 20px;
+}
+
+.blog-padding-left-right {
+    padding: 0px 11px;
+}
+
+.blog-padding-right {
+    padding: 0px 20px 0px 0px;
+}
+
+.latest-card {
+    margin-bottom: 60px;
+}
+
+.latest-blog-read-more a button {
+    padding: 21px 43px;
+}
 
 
-/* Email Field */
+/* ============================Subscribe to Our Newsletter============================ */
+.lear-bg {
+    background-image: url(../images/main/footer/lair-bg.png),
+        linear-gradient(180deg, rgba(0, 0, 0, 0.93) 17.46%, rgba(12, 12, 12, 0.54) 100%);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin-top: 101px;
+    padding-top: 102px;
+
+}
+
+.subscribe-section .subscribe-title {
+    font-weight: 600;
+    font-size: 44px;
+    line-height: 66px;
+    text-align: center;
+    color: #E5E5E5;
+}
+
+
+.subscribe-section .subscribe-details {
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 34px;
+    text-align: center;
+    color: #717282;
+    margin-bottom: 40px;
+}
+
 .email-field button {
     background: linear-gradient(90deg, #F7C301 0%, #F47E37 100%);
     border-radius: 0px 200px 200px 0px;
-    padding: 20px;
     color: white;
     font-weight: 700;
+    padding: 24px 36px;
 }
 
 .input-group.email-field {
@@ -598,55 +799,34 @@ button.btn-gradient-2.card-bottom {
     margin: auto;
 }
 
+input, select, textarea {
+    color: #000;
+}
+
 input.form-control {
     border-radius: 180px 0px 0px 180px;
-    padding: 15px;
+    padding: 0px 20px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
 }
 
-/* Curosol */
-.border-line {
-    border-bottom: 1px solid transparent;
-    border-image: linear-gradient(90deg, rgba(255, 217, 100, 0.1) 0%, rgba(255, 153, 0, 0.6) 50.31%,
-            rgba(255, 153, 0, 0.14) 100%) 1;
+.footer-section .card-latest-line {
+    border-bottom: 1px solid black;
+    border-image: linear-gradient(90deg, rgba(255, 217, 100, 0.1) 0%, rgb(255 153 0) 50.31%, rgba(255, 153, 0, 0.14) 100%) 1;
+    margin-bottom: 70px;
+    height: 2px;
+    font-weight: 700;
+    margin-top: 90px;
 }
 
-.swiper-slide .card {
-    background: rgb(255, 217, 100, 0.1);
-    border: 1px solid transparent;
-    border-image: linear-gradient(90deg, rgba(255, 217, 100, 0.1) 0%, rgba(255, 153, 0, 0.6) 50.31%, rgba(255, 153, 0, 0.14) 100%) 1;
-}
-
-.swiper-slide .card p {
-    color: #FFFFFF;
-    opacity: 0.7;
-    line-height: 30px;
-}
-
-.swiper-slide .card img {
-    width: 130px;
-    border-radius: 50%;
-    margin-top: -75px;
-}
-
-.mySwiper {
-    display: flex;
-    align-items: center;
-}
-
-span.swiper-pagination-bullet.swiper-pagination-bullet {
-    background: linear-gradient(90deg, #F7C301 0%, #F47E37 100%);
-    width: 18px;
-    height: 18px;
-}
-
-.swiper-section {
-    margin-bottom: 60px;
-}
-
-/* Footer Section start */
-.footer-logo-text h1 {
+.footer-logo-text div h1 {
+    font-weight: 700;
     font-size: 22px;
     line-height: 33px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-bottom: 30px;
 }
 
 .footer-logo-text ul {
@@ -659,6 +839,7 @@ span.swiper-pagination-bullet.swiper-pagination-bullet {
     line-height: 32px;
     color: #FFFFFF;
     opacity: 0.8;
+    margin: 5px 0px;
 }
 
 .footer-logo-text ul li a {
@@ -667,10 +848,32 @@ span.swiper-pagination-bullet.swiper-pagination-bullet {
     opacity: 0.8;
 }
 
-.icons ul li a {
-    padding: 8px 12px;
+.icon-header h6 {
+    margin: 0;
+}
+
+.icons ul {
+    margin: 0px;
+}
+
+.icons ul li {
+    margin: 0px 5px;
+}
+
+.icons ul li a i {
+
     color: white;
     font-weight: 700;
+}
+
+.icons ul li a {
+    padding: 8px 16px;
+    height: 15px;
+    width: 7px;
+}
+
+.list.show {
+    background: #dd811c;
 }
 
 .logo ul {
@@ -684,7 +887,6 @@ span.swiper-pagination-bullet.swiper-pagination-bullet {
     padding: 6px 8px;
 }
 
-/* Drop down menu */
 
 .country-drop-down-menu .drop-down {
     position: relative;
@@ -738,16 +940,17 @@ span.swiper-pagination-bullet.swiper-pagination-bullet {
     background-color: rgb(211, 211, 211);
 }
 
+hr.footer-mead-line {
+    margin: 24px 0px 32px 0px;
+    color: #eaeaea;
+    border: 1px;
+    border-top: var(--bs-border-width) solid;
+}
+
 .footer-logo-text.d-flex.align-items-center {
     justify-content: end;
 }
 
-.lear-bg {
-    background-image: url(../images/main/footer/lair-bg.png),
-        linear-gradient(180deg, rgba(0, 0, 0, 0.0) 17.46%, rgba(12, 12, 12, 0.54) 100%);
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-}
 
 .subscribe-are {
     background: linear-gradient(267deg, rgb(0 0 0 / 47%) 95%, rgb(0 0 0 / 32%) 58%, rgb(8 8 8 / 47%) 18%);
@@ -757,7 +960,28 @@ footer.mt-5 {
     background: #00000061;
 }
 
+.copy-field p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 14px;
+    /* text-align: center; */
+    color: #717282;
+}
 
+.footer-logo-text.d-flex.align-items-center p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #717282;
+}
+
+.footer-logo-text.d-flex.align-items-center .logo ul li {
+    margin: 0 7px;
+    background: #1f1f1f;
+    border-radius: 100%;
+    padding: 7px 13px;
+}
 
 
 
@@ -971,11 +1195,6 @@ footer.mt-5 {
         padding-bottom: 50px;
     }
 
-    .main-header-text h1 {
-        font-size: 35px;
-        line-height: 50px;
-    }
-
     .pricing-section .card-field {
         margin-bottom: 60px;
     }
@@ -991,6 +1210,47 @@ footer.mt-5 {
 
     .text-field {
         padding: 29px 0px 19px 118px;
+    }
+
+    article.latest-blog {
+        margin-top: 70px;
+    }
+
+    article.latest-blog h1 {
+        font-size: 35px;
+    }
+
+    .blog-padding-right {
+        padding: 0px 12px 0px 12px;
+        margin-bottom: 20px;
+    }
+
+    .blog-padding-left-right {
+        padding: 0px 12px;
+        margin-bottom: 20px;
+    }
+
+    .blog-padding-left {
+        padding: 0px 12px 0px 12px;
+    }
+
+    .lear-bg {
+        margin-top: 30px;
+        padding-top: 50px;
+    }
+
+    .subscribe-section .subscribe-title {
+        font-size: 30px;
+        line-height: 38px;
+    }
+
+    .email-field button {
+        font-weight: normal;
+        padding: 8px 5px;
+    }
+
+    .col-12.col-md-4.col-lg-2 {
+        text-align: center;
     }
 
 }
@@ -1173,6 +1433,47 @@ footer.mt-5 {
         padding: 29px 0px 19px 70px;
     }
 
+    article.latest-blog {
+        margin-top: 70px;
+    }
+
+    article.latest-blog h1 {
+        font-size: 35px;
+    }
+
+    .blog-padding-right {
+        padding: 0px 12px 0px 12px;
+        margin-bottom: 20px;
+    }
+
+    .blog-padding-left-right {
+        padding: 0px 12px;
+        margin-bottom: 20px;
+    }
+
+    .blog-padding-left {
+        padding: 0px 12px 0px 12px;
+    }
+
+    .lear-bg {
+        margin-top: 30px;
+        padding-top: 50px;
+    }
+
+    .subscribe-section .subscribe-title {
+        font-size: 30px;
+        line-height: 38px;
+    }
+
+    .email-field button {
+        font-weight: normal;
+        padding: 8px 5px;
+    }
+
+    .col-12.col-md-4.col-lg-2 {
+        text-align: center;
+    }
+
 }
 
 @media screen and (min-width: 769px) and (max-width: 992px) {
@@ -1310,5 +1611,27 @@ footer.mt-5 {
 
     .text-field {
         padding: 20px 0px 20px 118px;
+    }
+
+    article.latest-blog {
+        margin-top: 70px;
+    }
+
+    article.latest-blog h1 {
+        font-size: 35px;
+    }
+
+    .blog-padding-right {
+        padding: 0px 12px 0px 12px;
+        margin-bottom: 20px;
+    }
+
+    .blog-padding-left-right {
+        padding: 0px 12px;
+        margin-bottom: 20px;
+    }
+
+    .blog-padding-left {
+        padding: 0px 12px 0px 12px;
     }
 }
